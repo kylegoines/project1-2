@@ -1,17 +1,4 @@
-/* -------------------------------------------------------------------------*/
-/* Layout */
-/* line 14, ../sass/screen.scss */
-html, body {
-  margin: 0;
-}
-
-/* line 19, ../sass/screen.scss */
-body {
-  font-family: AvenirNextLTPro-Regular, sans-serif;
-  font-size: 12pt;
-}
-
-/* line 29, ../sass/screen.scss */
+/* line 5, ../sass/_typography.scss */
 h1 {
   color: #fff;
   font-size: 34pt;
@@ -19,49 +6,37 @@ h1 {
   font-family: AvenirNextLTPro-DemiCn;
 }
 
-/* line 36, ../sass/screen.scss */
+/* line 12, ../sass/_typography.scss */
 h3 {
   font-size: 24pt;
   font-family: AvenirNextLTPro-Cn;
 }
 
-/* line 42, ../sass/screen.scss */
+/* line 18, ../sass/_typography.scss */
 h4 {
   font-size: 20pt;
   font-family: AvenirNextLTPro-Regular;
 }
 
-/* line 47, ../sass/screen.scss */
+/* line 23, ../sass/_typography.scss */
+h5 {
+  font-size: 16pt;
+  font-family: AvenirNextLTPro-Demi;
+  text-transform: uppercase;
+}
+
+/* line 29, ../sass/_typography.scss */
 p {
   font-size: 16pt;
   font-family: Avenir-Light;
 }
 
-/* line 52, ../sass/screen.scss */
-.pageWrapper {
-  *zoom: 1;
-  max-width: 119em;
-  _width: 119em;
-  padding-left: 1em;
-  padding-right: 1em;
-  margin-left: auto;
-  margin-right: auto;
-  overflow: hidden;
-  max-width: 1200px;
-}
-/* line 38, ../../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-.pageWrapper:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* line 59, ../sass/screen.scss */
+/* line 1, ../sass/_navs.scss */
 #navLight {
   display: none;
 }
 
-/* line 63, ../sass/screen.scss */
+/* line 5, ../sass/_navs.scss */
 #peopleNav {
   background: url("../images/navBack.png");
   height: 100%;
@@ -70,19 +45,19 @@ p {
   z-index: 10;
   padding: 0px 0 0 100px;
 }
-/* line 70, ../sass/screen.scss */
+/* line 12, ../sass/_navs.scss */
 #peopleNav li {
   padding-bottom: 30px;
 }
 
-/* line 75, ../sass/screen.scss */
+/* line 17, ../sass/_navs.scss */
 #peopleNav ul {
   position: relative;
   left: -25px;
   list-style-type: none;
 }
 
-/* line 81, ../sass/screen.scss */
+/* line 23, ../sass/_navs.scss */
 #peopleNav li a {
   font-family: AvenirNextLTPro-Cn;
   color: #ffffff;
@@ -90,7 +65,7 @@ p {
   text-decoration: none;
 }
 
-/* line 88, ../sass/screen.scss */
+/* line 30, ../sass/_navs.scss */
 .homeLink a {
   position: relative;
   left: 10px;
@@ -99,7 +74,7 @@ p {
   text-decoration: none;
 }
 
-/* line 96, ../sass/screen.scss */
+/* line 1, ../sass/_healthyPeople.scss */
 .peopletop {
   background: url("../images/peopleTop.jpg") no-repeat;
   height: 600px;
@@ -109,7 +84,7 @@ p {
   display: inline;
 }
 
-/* line 105, ../sass/screen.scss */
+/* line 10, ../sass/_healthyPeople.scss */
 .peopleBlue {
   display: none;
   color: #ffffff;
@@ -122,7 +97,7 @@ p {
   background: url("../images/blueBack.png");
 }
 
-/* line 117, ../sass/screen.scss */
+/* line 22, ../sass/_healthyPeople.scss */
 .peopleCoral {
   display: none;
   color: #ffffff;
@@ -135,7 +110,7 @@ p {
   background: url("../images/coralBack.png");
 }
 
-/* line 129, ../sass/screen.scss */
+/* line 34, ../sass/_healthyPeople.scss */
 .peopleOrange {
   display: none;
   color: #ffffff;
@@ -148,13 +123,13 @@ p {
   background: url("../images/orangeBack.png");
 }
 
-/* line 143, ../sass/screen.scss */
+/* line 48, ../sass/_healthyPeople.scss */
 #peopleServed {
   background-color: red;
   margin-left: 350px;
 }
 
-/* line 150, ../sass/screen.scss */
+/* line 55, ../sass/_healthyPeople.scss */
 .servedHeader {
   background: #d36c53;
   height: 400px;
@@ -166,39 +141,39 @@ p {
   margin-right: 1.69492%;
   display: inline;
 }
-/* line 158, ../sass/screen.scss */
+/* line 63, ../sass/_healthyPeople.scss */
 .servedHeader img {
   padding-top: 90px;
 }
-/* line 163, ../sass/screen.scss */
+/* line 68, ../sass/_healthyPeople.scss */
 .servedHeader h3 {
   position: relative;
   top: 43px;
   color: #fff;
 }
 
-/* line 170, ../sass/screen.scss */
+/* line 75, ../sass/_healthyPeople.scss */
 .servedHeaderLight {
   display: none;
 }
 
-/* line 174, ../sass/screen.scss */
+/* line 79, ../sass/_healthyPeople.scss */
 .servedContent {
   width: 66.10169%;
   float: left;
   margin-right: 1.69492%;
   display: inline;
 }
-/* line 178, ../sass/screen.scss */
+/* line 83, ../sass/_healthyPeople.scss */
 .servedContent h4 {
   padding-left: 40px;
 }
-/* line 181, ../sass/screen.scss */
+/* line 86, ../sass/_healthyPeople.scss */
 .servedContent p {
   padding-left: 40px;
 }
 
-/* line 188, ../sass/screen.scss */
+/* line 93, ../sass/_healthyPeople.scss */
 .servedWrapper {
   width: 100%;
   float: left;
@@ -206,96 +181,96 @@ p {
   display: inline;
 }
 
-/* line 192, ../sass/screen.scss */
+/* line 97, ../sass/_healthyPeople.scss */
 .bridging {
-  width: 83.05085%;
+  width: 91.52542%;
   float: left;
   margin-right: 1.69492%;
   display: inline;
-  margin-left: 8.40336%;
+  margin-left: 8.47458%;
 }
-/* line 199, ../sass/screen.scss */
+/* line 104, ../sass/_healthyPeople.scss */
 .bridging img {
   float: right;
 }
 
-/* line 204, ../sass/screen.scss */
+/* line 109, ../sass/_healthyPeople.scss */
 .medAssistance {
-  width: 83.05085%;
+  width: 91.52542%;
   float: left;
   margin-right: 1.69492%;
   display: inline;
-  margin-left: 8.40336%;
+  margin-left: 8.47458%;
 }
-/* line 207, ../sass/screen.scss */
+/* line 112, ../sass/_healthyPeople.scss */
 .medAssistance img {
   float: left;
   margin-bottom: 100px;
   margin-right: 15px;
 }
-/* line 212, ../sass/screen.scss */
+/* line 117, ../sass/_healthyPeople.scss */
 .medAssistance .medImage {
   float: right;
   margin-left: 20px;
 }
 
-/* line 218, ../sass/screen.scss */
+/* line 123, ../sass/_healthyPeople.scss */
 .medicaid {
-  width: 83.05085%;
+  width: 91.52542%;
   float: left;
   margin-right: 1.69492%;
   display: inline;
-  margin-left: 8.40336%;
+  margin-left: 8.47458%;
   float: left;
   margin-bottom: 10px;
   margin-right: 15px;
 }
 
-/* line 226, ../sass/screen.scss */
+/* line 131, ../sass/_healthyPeople.scss */
 .mediStats {
   width: 100%;
   float: left;
   margin-right: 1.69492%;
   display: inline;
 }
-/* line 228, ../sass/screen.scss */
+/* line 133, ../sass/_healthyPeople.scss */
 .mediStats img {
   display: block;
   margin: 0 auto;
 }
 
-/* line 235, ../sass/screen.scss */
+/* line 140, ../sass/_healthyPeople.scss */
 .hawaiiStats {
-  width: 83.05085%;
+  width: 91.52542%;
   float: left;
   margin-right: 1.69492%;
   display: inline;
-  margin-left: 8.40336%;
+  margin-left: 8.47458%;
 }
-/* line 238, ../sass/screen.scss */
+/* line 143, ../sass/_healthyPeople.scss */
 .hawaiiStats img {
   width: 100%;
 }
 
-/* line 243, ../sass/screen.scss */
+/* line 148, ../sass/_healthyPeople.scss */
 .smallText {
-  width: 83.05085%;
+  width: 91.52542%;
   float: left;
   margin-right: 1.69492%;
   display: inline;
-  margin-left: 8.40336%;
+  margin-left: 8.47458%;
 }
 
-/* line 248, ../sass/screen.scss */
+/* line 153, ../sass/_healthyPeople.scss */
 .freeSurgery {
-  width: 83.05085%;
+  width: 91.52542%;
   float: left;
   margin-right: 1.69492%;
   display: inline;
-  margin-left: 8.40336%;
+  margin-left: 8.47458%;
 }
 
-/* line 258, ../sass/screen.scss */
+/* line 163, ../sass/_healthyPeople.scss */
 .standardBlock {
   width: 100%;
   float: left;
@@ -303,7 +278,7 @@ p {
   display: inline;
 }
 
-/* line 265, ../sass/screen.scss */
+/* line 170, ../sass/_healthyPeople.scss */
 .safetyNetBlock {
   width: 100%;
   float: left;
@@ -311,24 +286,24 @@ p {
   display: inline;
   overflow: hidden;
 }
-/* line 268, ../sass/screen.scss */
+/* line 173, ../sass/_healthyPeople.scss */
 .safetyNetBlock .imgRight {
   overflow: hidden;
   height: 200px;
 }
-/* line 272, ../sass/screen.scss */
+/* line 177, ../sass/_healthyPeople.scss */
 .safetyNetBlock .imgRight img {
   height: 100%;
 }
 
-/* line 278, ../sass/screen.scss */
+/* line 183, ../sass/_healthyPeople.scss */
 .safetyBlue {
   float: left;
   height: 200px;
   width: 200px;
-  background-color: blue;
+  background-color: #007aae;
 }
-/* line 283, ../sass/screen.scss */
+/* line 188, ../sass/_healthyPeople.scss */
 .safetyBlue h3 {
   display: block;
   color: #fff;
@@ -337,7 +312,69 @@ p {
   top: 45px;
 }
 
-/* line 295, ../sass/screen.scss */
+/* line 197, ../sass/_healthyPeople.scss */
+.commHealth {
+  width: 91.52542%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+  margin-left: 8.47458%;
+  padding-top: 40px;
+}
+
+/* line 202, ../sass/_healthyPeople.scss */
+.commText {
+  width: 49.15254%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+}
+
+/* line 205, ../sass/_healthyPeople.scss */
+.commImg {
+  width: 49.15254%;
+  float: right;
+  margin-right: 0;
+  *margin-left: -1em;
+  display: inline;
+}
+/* line 207, ../sass/_healthyPeople.scss */
+.commImg img {
+  width: 100%;
+}
+
+/* line 212, ../sass/_healthyPeople.scss */
+.partner {
+  width: 91.52542%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+  margin-left: 8.47458%;
+}
+
+/* line 216, ../sass/_healthyPeople.scss */
+.parImg {
+  width: 49.15254%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+  padding-top: 40px;
+}
+/* line 219, ../sass/_healthyPeople.scss */
+.parImg img {
+  width: 100%;
+}
+
+/* line 223, ../sass/_healthyPeople.scss */
+.parText {
+  width: 49.15254%;
+  float: right;
+  margin-right: 0;
+  *margin-left: -1em;
+  display: inline;
+}
+
+/* line 230, ../sass/_healthyPeople.scss */
 .servedWrapper2 {
   width: 100%;
   float: left;
@@ -345,16 +382,53 @@ p {
   display: inline;
 }
 
-/* line 299, ../sass/screen.scss */
+/* line 238, ../sass/_healthyPeople.scss */
 .equitableBlock {
   width: 100%;
   float: left;
   margin-right: 1.69492%;
   display: inline;
+  margin-top: 40px;
+  overflow: hidden;
+}
+/* line 242, ../sass/_healthyPeople.scss */
+.equitableBlock .imgRight {
+  overflow: hidden;
+  height: 200px;
+}
+/* line 246, ../sass/_healthyPeople.scss */
+.equitableBlock .imgRight img {
+  height: 100%;
+}
+
+/* line 251, ../sass/_healthyPeople.scss */
+.equitOrange {
+  float: left;
+  width: 200px;
+  height: 200px;
+  background-color: #fba504;
+}
+/* line 256, ../sass/_healthyPeople.scss */
+.equitOrange h3 {
+  display: block;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: 35px;
+}
+
+/* line 266, ../sass/_healthyPeople.scss */
+.standardWrapper {
+  padding-top: 40px;
+  width: 91.52542%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+  margin-left: 8.47458%;
 }
 
 @media only screen and (max-width: 1100px) {
-  /* line 307, ../sass/screen.scss */
+  /* line 279, ../sass/_healthyPeople.scss */
   .servedHeader {
     width: 100%;
     float: left;
@@ -362,16 +436,202 @@ p {
     display: inline;
     height: 100px;
   }
-  /* line 310, ../sass/screen.scss */
+  /* line 282, ../sass/_healthyPeople.scss */
   .servedHeader h3 {
-    top: -17px;
+    top: 10px;
   }
 
-  /* line 314, ../sass/screen.scss */
+  /* line 286, ../sass/_healthyPeople.scss */
   .servedContent {
     width: 100%;
     float: left;
     margin-right: 1.69492%;
     display: inline;
   }
+
+  /* line 291, ../sass/_healthyPeople.scss */
+  .safetyNetBlock {
+    margin-top: 40px;
+  }
+  /* line 293, ../sass/_healthyPeople.scss */
+  .safetyNetBlock .imgRight {
+    display: none;
+  }
+
+  /* line 298, ../sass/_healthyPeople.scss */
+  .safetyBlue {
+    width: 100%;
+    height: 100px;
+  }
+  /* line 301, ../sass/_healthyPeople.scss */
+  .safetyBlue h3 {
+    top: 0px;
+  }
+
+  /* line 308, ../sass/_healthyPeople.scss */
+  .equitableBlock .imgRight {
+    display: none;
+  }
+
+  /* line 313, ../sass/_healthyPeople.scss */
+  .equitOrange {
+    width: 100%;
+    height: 100px;
+  }
+  /* line 316, ../sass/_healthyPeople.scss */
+  .equitOrange h3 {
+    top: -15px;
+  }
+}
+@media only screen and (max-width: 846px) {
+  /* line 326, ../sass/_healthyPeople.scss */
+  p {
+    font-size: 14pt;
+  }
+
+  /* line 331, ../sass/_healthyPeople.scss */
+  .bridging img {
+    width: 100%;
+  }
+
+  /* line 338, ../sass/_healthyPeople.scss */
+  .medAssistance .medImage {
+    width: 100%;
+    float: left;
+    margin-right: 1.69492%;
+    display: inline;
+    float: none;
+    margin: 0px;
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* line 349, ../sass/_healthyPeople.scss */
+  .medass {
+    width: 100%;
+  }
+
+  /* line 354, ../sass/_healthyPeople.scss */
+  .medicaid img {
+    width: 100%;
+  }
+
+  /* line 360, ../sass/_healthyPeople.scss */
+  .mediStats img {
+    width: 100%;
+  }
+
+  /* line 365, ../sass/_healthyPeople.scss */
+  .commImg {
+    width: 100%;
+    float: left;
+    margin-right: 1.69492%;
+    display: inline;
+  }
+
+  /* line 369, ../sass/_healthyPeople.scss */
+  .commText {
+    width: 100%;
+    float: left;
+    margin-right: 1.69492%;
+    display: inline;
+  }
+
+  /* line 373, ../sass/_healthyPeople.scss */
+  .parImg {
+    width: 100%;
+    float: left;
+    margin-right: 1.69492%;
+    display: inline;
+  }
+
+  /* line 377, ../sass/_healthyPeople.scss */
+  .parText {
+    width: 100%;
+    float: left;
+    margin-right: 1.69492%;
+    display: inline;
+  }
+}
+@media only screen and (max-width: 750px) {
+  /* line 386, ../sass/_healthyPeople.scss */
+  #peopleNav {
+    display: none;
+  }
+
+  /* line 390, ../sass/_healthyPeople.scss */
+  #navLight {
+    text-align: center;
+    display: block;
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    color: #fff;
+    z-index: 999999999;
+    background: url("../images/navBackLight.png");
+    background-size: cover;
+  }
+  /* line 401, ../sass/_healthyPeople.scss */
+  #navLight h5 {
+    position: relative;
+    top: -30px;
+  }
+  /* line 405, ../sass/_healthyPeople.scss */
+  #navLight .linkNavLight {
+    color: #ffffff;
+    font-size: 10pt;
+    padding: 0 10px;
+    text-decoration: none;
+    position: relative;
+    top: -61px;
+  }
+
+  /* line 415, ../sass/_healthyPeople.scss */
+  #peopleServed {
+    margin: 0;
+  }
+
+  /* line 419, ../sass/_healthyPeople.scss */
+  .peopletop {
+    background-position: 25% 75%;
+  }
+}
+/* -------------------------------------------------------------------------*/
+/* Layout */
+/* line 17, ../sass/screen.scss */
+html, body {
+  margin: 0;
+}
+
+/* line 22, ../sass/screen.scss */
+body {
+  font-family: AvenirNextLTPro-Regular, sans-serif;
+  font-size: 12pt;
+}
+
+/* line 30, ../sass/screen.scss */
+.pageWrapper {
+  *zoom: 1;
+  max-width: 119em;
+  _width: 119em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  max-width: 1200px;
+  padding-left: 0;
+  padding-right: 0;
+}
+/* line 38, ../../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.pageWrapper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 39, ../sass/screen.scss */
+p {
+  padding-right: 1em;
 }

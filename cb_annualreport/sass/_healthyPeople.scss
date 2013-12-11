@@ -1,0 +1,424 @@
+.peopletop{
+	background: url('../images/peopleTop.jpg') no-repeat;
+	height: 600px;
+	@include span-columns(12,12);
+	img{
+
+	}
+}
+
+.peopleBlue {
+	display: none;
+	color: #ffffff;
+	text-align: center;
+	margin: 134px 0 0 776px;
+	position: absolute;
+	z-index: 12;
+	width: 192px;
+	height: 146px;
+	background: url('../images/blueBack.png');
+}
+
+.peopleCoral {
+	display: none;
+	color: #ffffff;
+	text-align: center;
+	margin: 402px 0 0 519px;
+	position: absolute;
+	z-index: 13;
+	width: 257px;
+	height: 198px;
+	background: url('../images/coralBack.png');
+}
+
+.peopleOrange {
+	display: none;
+	color: #ffffff;
+	text-align: center;
+	margin: 495px 0 0 775px;
+	position: absolute;
+	z-index: 14;
+	width: 256px;
+	height: 105px;
+	background: url('../images/orangeBack.png');
+}
+
+
+
+#peopleServed{
+
+	background-color: red;
+	margin-left: 350px;
+
+}
+
+.servedHeader{
+	background: #d36c53;
+	height: 400px;
+	float: left;
+	overflow: hidden;
+	text-align: center;
+	@include span-columns(3,12);
+
+	img{
+
+		padding-top: 90px;
+
+	}
+	h3{
+		position: relative;
+		top: 43px;;
+		color: #fff;
+	}
+}
+
+.servedHeaderLight{
+	display: none;
+}
+
+.servedContent{
+	//background-color: #bada55;
+
+	@include span-columns(8 ,12);
+	h4{
+		padding-left: 40px;
+	}
+	p{
+		padding-left: 40px;
+	}
+}
+////////////////////////////////////////////////////////////////////
+////////////people served
+///////////////////////////////////////////////////////////////////
+.servedWrapper{
+	@include span-columns(12,12);
+}
+
+	.bridging{
+		@include span-columns(11,12);
+
+		@include push(1);
+		p{
+
+		}
+		img{
+			float: right;
+		}
+	}
+
+	.medAssistance{
+		@include span-columns(11,12);
+		@include push(1);
+		img{
+			float: left;
+			margin-bottom: 100px;
+			margin-right: 15px;
+		}
+		.medImage {
+			float: right;
+			margin-left: 20px;
+		}
+	}
+
+	.medicaid{
+		@include span-columns(11,12);
+		@include push(1);
+		float: left;
+		margin-bottom: 10px;
+		margin-right: 15px;
+	}
+
+	.mediStats{
+		@include span-columns(12,12);
+		img{
+			display: block;
+			margin: 0 auto;
+		}
+
+	}
+
+	.hawaiiStats{
+		@include span-columns(11,12);
+		@include push(1);
+		img{
+			width: 100%;
+		}
+	}
+
+	.smallText{
+		@include span-columns(11,12);
+		@include push(1);
+	}
+
+	.freeSurgery{
+		@include span-columns(11,12);
+		@include push(1);
+	}
+
+
+////////////////////////////////////////////////////////////////////
+////////////
+///////////////////////////////////////////////////////////////////
+
+.standardBlock{
+	@include span-columns(12,12);
+}
+
+////////////////////////////////////////////////////////////////////
+//////////// saftey net
+///////////////////////////////////////////////////////////////////
+.safetyNetBlock{
+	@include span-columns(12,12);
+	overflow: hidden;
+	.imgRight{
+
+		overflow: hidden;
+		height: 200px;
+		img{
+			height: 100%;
+		}
+	}
+
+}
+	.safetyBlue{
+		float: left;
+		height: 200px;
+		width: 200px;
+		background-color: #007aae;
+		h3{
+			display: block;
+			color: #fff;
+			text-align: center;
+			position: relative;
+			top: 45px;
+		}
+	}
+
+	.commHealth{
+		@include span-columns(11,12);
+		@include push(1);
+		padding-top: 40px;
+	}
+		.commText{
+			@include span-columns(6,12);
+		}
+		.commImg{
+			@include span-columns(6 omega, 12);
+			img{
+				width: 100%;
+			}
+		}
+
+	.partner{
+		@include span-columns(11,12);
+		@include push(1);
+	}
+		.parImg{
+			@include span-columns(6,12);
+			padding-top: 40px;
+			img{
+				width: 100%;
+			}
+		}
+		.parText{
+			@include span-columns(6 omega,12);
+		}
+
+////////////////////////////////////////////////////////////////////
+////////////
+///////////////////////////////////////////////////////////////////
+.servedWrapper2{
+	@include span-columns(12,12);
+}
+
+///////////////////////////////////////////////////////
+/// equatable care
+///////////////////////////////////////////////////////
+
+.equitableBlock{
+	@include span-columns(12,12);
+	margin-top: 40px;
+	overflow: hidden;
+	.imgRight{
+
+		overflow: hidden;
+		height: 200px;
+		img{
+			height: 100%;
+		}
+	}
+}
+	.equitOrange{
+		float: left;
+		width: 200px;
+		height: 200px;
+		background-color: #fba504;
+		h3{
+			display: block;
+			color: #fff;
+			text-align: center;
+			position: relative;
+			top: 35px;
+		}
+
+	}
+
+	.standardWrapper{
+		padding-top: 40px;
+		@include span-columns(11,12);
+		@include push(1);
+	}
+
+
+
+
+
+
+@media only screen and (max-width: 1100px) {
+
+	.servedHeader{
+		@include span-columns(12,12);
+		height: 100px;
+		h3{
+			top: 10px;
+		}
+	}
+	.servedContent{
+		@include span-columns(12,12);
+
+	}
+
+	.safetyNetBlock{
+		margin-top: 40px;
+		.imgRight{
+			display: none;
+		}
+	}
+
+	.safetyBlue{
+		width: 100%;
+		height: 100px;
+		h3{
+			top: 0px;
+		}
+	}
+
+
+	.equitableBlock{
+		.imgRight{
+			display: none;
+		}
+	}
+
+	.equitOrange{
+		width: 100%;
+		height: 100px;
+		h3{
+			top: -15px;
+		}
+	}
+
+
+}
+
+@media only screen and (max-width: 846px) {
+
+	p{
+		font-size: 14pt;
+	}
+
+	.bridging{
+		img{
+
+			width: 100%;
+		}
+	}
+
+	.medAssistance{
+		.medImage{
+			@include span-columns(12,12);
+			float: none;
+			margin: 0px;
+			width: 70%;
+			display: block;
+			margin: 0 auto;
+		}
+	}
+
+
+	.medass{
+		width: 100% ;
+	}
+
+	.medicaid{
+		img{
+			width: 100%;
+		}
+	}
+
+	.mediStats{
+		img{
+			width: 100%;
+		}
+	}
+
+	.commImg{
+			@include span-columns(12,12);
+	}
+
+	.commText{
+		@include span-columns(12,12);
+	}
+
+	.parImg{
+		@include span-columns(12,12);
+	}
+
+	.parText{
+		@include span-columns(12,12);
+	}
+
+
+}
+
+
+@media only screen and (max-width: 750px) {
+	#peopleNav{
+		display: none;
+	}
+
+	#navLight {
+		text-align: center;
+		display: block;
+		position: fixed;
+		height: 100px;
+		width: 100%;
+		color: #fff;
+		z-index: 999999999;
+
+		background: url('../images/navBackLight.png');
+		background-size: cover;
+		h5{
+			position: relative;
+			top: -30px;
+		}
+		.linkNavLight{
+			color: #ffffff;
+			font-size: 10pt;
+			padding: 0 10px;
+			text-decoration: none;
+			position: relative;
+			top: -61px
+		}
+	}
+
+	#peopleServed{
+		margin: 0;
+	}
+
+	.peopletop{
+		background-position: 25% 75%;
+	}
+
+
+}

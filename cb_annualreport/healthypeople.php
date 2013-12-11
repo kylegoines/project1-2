@@ -73,7 +73,7 @@
                  <h4>Case Study: Medical Financial Assistance</h4>
                  <img class="medImage" src="images/medHomes.png">
                  <p>Medical Financial Assistance helps people who have exhausted all means of private or public health care coverage. We want to ensure that everyone has access to the same quality care we provide for our members. For a growing number of Americans struggling to pay out-of-pocket medical expenses, this unique Kaiser Permanente program is a vital resource. We don’t want financial barriers to prevent individuals and communities from receiving quality care.</p>
-                 <img src="images/medAssistanceStats.png">
+                 <img class="medass" src="images/medAssistanceStats.png">
              </div>
 
              <div class="medicaid">
