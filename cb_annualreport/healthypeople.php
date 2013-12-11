@@ -6,12 +6,15 @@
     <meta name="keywords" content="">
     <title>Kaiser Permanente 2013 Annual Report</title>
 	
-	<link rel="stylesheet" media="all" href="styles/style.css"/>
+	<link rel="stylesheet" media="all" href="stylesheets/fonts.css"/>
+	<link rel="stylesheet" media="all" href="stylesheets/screen.css"/>
     
   </head>
   <body>
   
   <div class="pageWrapper">
+
+
     <div id="peopleNav">
 	  <a href="index.php"><img src="images/navLogo.png" border="0"></a>
 	  <h1>Healthy<BR>People</h2>
@@ -39,11 +42,14 @@
     
     <div class="peopletop">
        <header>
+	   
+  	   </header>
+    </div> 
+
   	     <div class="peopleBlue"><a href="#safteynet"><h3>SAFETY NET</h3></a></div>
 		 <div class="peopleCoral"><a href="#peopleserved"><h3>PEOPLE SERVED</h3></a></div>
-		 <div class="peopleOrange"><a href="#equitable"><h3>EQUITABLE CARE</h3></a></div>	   
-  	   </header>
-    </div>    
+		 <div class="peopleOrange"><a href="#equitable"><h3>EQUITABLE CARE</h3></a></div>   
+
     <div id="peopleServed">
 		 <div class="servedHeader"><a name="peopleserved"><h3>PEOPLE<br>SERVED</h3></a>
 		 <img src="images/servedimage.jpg"></div>
@@ -58,8 +64,9 @@
 		 <div class="servedWrapper">
     		 <div class="bridging">
     		   <h4>Bridging the Gap - Subsidized Care</h4>
-    		   <img class="imgRight" src="images/totalMembers.png">
+    		   	<img class="imgRight" src="images/totalMembers.png">
                  <p>We partner with public and private organizations to work toward the elimination of disparities in health and health care by providing access to care for all. We do this by removing financial barriers to care through our charitable care and coverage programs, medical financial assistance for members and non-members who do not qualify for other programs. We also provide support to community health centers, public hospitals, local health departments and school health centers to help deliver care for our most vulnerable populations.</p>
+
              </div>
 
              <div class="medAssistance">

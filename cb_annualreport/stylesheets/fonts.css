@@ -1,0 +1,44 @@
+/*  Fonts  */
+@font-face {
+  font-family: AvenirNextLTPro-Regular;
+  src: url("fonts/AvenirNextLTPro-Regular.eot");
+  src: url("fonts/AvenirNextLTPro-Regular.otf") format("embedded-opentype"), url("../styles/fonts/AvenirNextLTPro-Regular.svg") format("svg"), url("../styles/fonts/AvenirNextLTPro-Regular.woff") format("woff"); }
+
+@font-face {
+  font-family: AvenirNextLTPro-Demi;
+  src: url("fonts/AvenirNextLTPro-Demi.eot"), url("../styles/fonts/AvenirNextLTPro-Demi.otf"), url("../styles/fonts/AvenirNextLTPro-Demi.svg"), url("../styles/fonts/AvenirNextLTPro-Demi.woff"); }
+
+@font-face {
+  font-family: AvenirNextLTPro-DemiCn;
+  src: url("../styles/fonts/AvenirNextLTPro-DemiCn.eot"), url("../styles/fonts/AvenirNextLTPro-DemiCn.otf"), url("../styles/fonts/AvenirNextLTPro-DemiCn.svg"), url("../styles/fonts/AvenirNextLTPro-DemiCn.woff"); }
+
+@font-face {
+  font-family: AvenirNextLTPro-MediumCn;
+  src: url("../styles/fonts/AvenirNextLTPro-MediumCn.eot"), url("../styles/fonts/AvenirNextLTPro-MediumCn.otf"), url("../styles/fonts/AvenirNextLTPro-MediumCn.svg"), url("../styles/fonts/AvenirNextLTPro-MediumCn.woff"); }
+
+@font-face {
+  font-family: AvenirNextLTPro-BoldCn;
+  src: url("../styles/fonts/AvenirNextLTPro-BoldCn.eot"), url("../styles/fonts/AvenirNextLTPro-BoldCn.otf"), url("../styles/fonts/AvenirNextLTPro-BoldCn.svg"), url("../styles/fonts/AvenirNextLTPro-BoldCn.woff"); }
+
+@font-face {
+  font-family: AvenirNextLTPro-BoldCnIt;
+  src: url("../styles/fonts/AvenirNextLTPro-BoldCnIt.eot"), url("../styles/fonts/AvenirNextLTPro-BoldCnIt.otf"), url("../styles/fonts/AvenirNextLTPro-BoldCnIt.svg"), url("../styles/fonts/AvenirNextLTPro-BoldCnIt.woff"); }
+
+@font-face {
+  font-family: AvenirNextLTPro-It;
+  src: url("../styles/fonts/AvenirNextLTPro-It.eot"), url("../styles/fonts/AvenirNextLTPro-It.otf"), url("../styles/fonts/AvenirNextLTPro-It.svg"), url("../styles/fonts/AvenirNextLTPro-It.woff"); }
+
+@font-face {
+  font-family: AvenirNextLTPro-Cn;
+  src: url("../styles/fonts/AvenirNextLTPro-Cn.eot"), url("../styles/fonts/AvenirNextLTPro-Cn.otf"), url("../styles/fonts/AvenirNextLTPro-Cn.svg"), url("../styles/fonts/AvenirNextLTPro-Cn.woff"); }
+
+@font-face {
+  font-family: AvenirNextLTPro-UltLtCn;
+  src: url("../styles/fonts/AvenirNextLTPro-UltLtCn.eot"), url("../styles/fonts/AvenirNextLTPro-UltLtCn.otf"), url("../styles/fonts/AvenirNextLTPro-UltLtCn.svg"), url("fonts/AvenirNextLTPro-UltLtCn.woff"); }
+
+@font-face {
+  font-family: 'Avenir-Light';
+  src: url("../styles/fonts/avenirltstd-light-webfont.eot");
+  src: url("../styles/fonts/avenirltstd-light-webfont.eot?#iefix") format("embedded-opentype"), url("../styles/fonts/avenirltstd-light-webfont.woff") format("woff"), url("../styles/fonts/avenirltstd-light-webfont.ttf") format("truetype"), url("../styles/fonts/avenirltstd-light-webfont.svg#avenir_lt_std_35_lightregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }

@@ -1,0 +1,377 @@
+/* -------------------------------------------------------------------------*/
+/* Layout */
+/* line 14, ../sass/screen.scss */
+html, body {
+  margin: 0;
+}
+
+/* line 19, ../sass/screen.scss */
+body {
+  font-family: AvenirNextLTPro-Regular, sans-serif;
+  font-size: 12pt;
+}
+
+/* line 29, ../sass/screen.scss */
+h1 {
+  color: #fff;
+  font-size: 34pt;
+  text-transform: uppercase;
+  font-family: AvenirNextLTPro-DemiCn;
+}
+
+/* line 36, ../sass/screen.scss */
+h3 {
+  font-size: 24pt;
+  font-family: AvenirNextLTPro-Cn;
+}
+
+/* line 42, ../sass/screen.scss */
+h4 {
+  font-size: 20pt;
+  font-family: AvenirNextLTPro-Regular;
+}
+
+/* line 47, ../sass/screen.scss */
+p {
+  font-size: 16pt;
+  font-family: Avenir-Light;
+}
+
+/* line 52, ../sass/screen.scss */
+.pageWrapper {
+  *zoom: 1;
+  max-width: 119em;
+  _width: 119em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  max-width: 1200px;
+}
+/* line 38, ../../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.pageWrapper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 59, ../sass/screen.scss */
+#navLight {
+  display: none;
+}
+
+/* line 63, ../sass/screen.scss */
+#peopleNav {
+  background: url("../images/navBack.png");
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 10;
+  padding: 0px 0 0 100px;
+}
+/* line 70, ../sass/screen.scss */
+#peopleNav li {
+  padding-bottom: 30px;
+}
+
+/* line 75, ../sass/screen.scss */
+#peopleNav ul {
+  position: relative;
+  left: -25px;
+  list-style-type: none;
+}
+
+/* line 81, ../sass/screen.scss */
+#peopleNav li a {
+  font-family: AvenirNextLTPro-Cn;
+  color: #ffffff;
+  font-size: 16pt;
+  text-decoration: none;
+}
+
+/* line 88, ../sass/screen.scss */
+.homeLink a {
+  position: relative;
+  left: 10px;
+  top: -20px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* line 96, ../sass/screen.scss */
+.peopletop {
+  background: url("../images/peopleTop.jpg") no-repeat;
+  height: 600px;
+  width: 100%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+}
+
+/* line 105, ../sass/screen.scss */
+.peopleBlue {
+  display: none;
+  color: #ffffff;
+  text-align: center;
+  margin: 134px 0 0 776px;
+  position: absolute;
+  z-index: 12;
+  width: 192px;
+  height: 146px;
+  background: url("../images/blueBack.png");
+}
+
+/* line 117, ../sass/screen.scss */
+.peopleCoral {
+  display: none;
+  color: #ffffff;
+  text-align: center;
+  margin: 402px 0 0 519px;
+  position: absolute;
+  z-index: 13;
+  width: 257px;
+  height: 198px;
+  background: url("../images/coralBack.png");
+}
+
+/* line 129, ../sass/screen.scss */
+.peopleOrange {
+  display: none;
+  color: #ffffff;
+  text-align: center;
+  margin: 495px 0 0 775px;
+  position: absolute;
+  z-index: 14;
+  width: 256px;
+  height: 105px;
+  background: url("../images/orangeBack.png");
+}
+
+/* line 143, ../sass/screen.scss */
+#peopleServed {
+  background-color: red;
+  margin-left: 350px;
+}
+
+/* line 150, ../sass/screen.scss */
+.servedHeader {
+  background: #d36c53;
+  height: 400px;
+  float: left;
+  overflow: hidden;
+  text-align: center;
+  width: 23.72881%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+}
+/* line 158, ../sass/screen.scss */
+.servedHeader img {
+  padding-top: 90px;
+}
+/* line 163, ../sass/screen.scss */
+.servedHeader h3 {
+  position: relative;
+  top: 43px;
+  color: #fff;
+}
+
+/* line 170, ../sass/screen.scss */
+.servedHeaderLight {
+  display: none;
+}
+
+/* line 174, ../sass/screen.scss */
+.servedContent {
+  width: 66.10169%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+}
+/* line 178, ../sass/screen.scss */
+.servedContent h4 {
+  padding-left: 40px;
+}
+/* line 181, ../sass/screen.scss */
+.servedContent p {
+  padding-left: 40px;
+}
+
+/* line 188, ../sass/screen.scss */
+.servedWrapper {
+  width: 100%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+}
+
+/* line 192, ../sass/screen.scss */
+.bridging {
+  width: 83.05085%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+  margin-left: 8.40336%;
+}
+/* line 199, ../sass/screen.scss */
+.bridging img {
+  float: right;
+}
+
+/* line 204, ../sass/screen.scss */
+.medAssistance {
+  width: 83.05085%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+  margin-left: 8.40336%;
+}
+/* line 207, ../sass/screen.scss */
+.medAssistance img {
+  float: left;
+  margin-bottom: 100px;
+  margin-right: 15px;
+}
+/* line 212, ../sass/screen.scss */
+.medAssistance .medImage {
+  float: right;
+  margin-left: 20px;
+}
+
+/* line 218, ../sass/screen.scss */
+.medicaid {
+  width: 83.05085%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+  margin-left: 8.40336%;
+  float: left;
+  margin-bottom: 10px;
+  margin-right: 15px;
+}
+
+/* line 226, ../sass/screen.scss */
+.mediStats {
+  width: 100%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+}
+/* line 228, ../sass/screen.scss */
+.mediStats img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 235, ../sass/screen.scss */
+.hawaiiStats {
+  width: 83.05085%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+  margin-left: 8.40336%;
+}
+/* line 238, ../sass/screen.scss */
+.hawaiiStats img {
+  width: 100%;
+}
+
+/* line 243, ../sass/screen.scss */
+.smallText {
+  width: 83.05085%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+  margin-left: 8.40336%;
+}
+
+/* line 248, ../sass/screen.scss */
+.freeSurgery {
+  width: 83.05085%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+  margin-left: 8.40336%;
+}
+
+/* line 258, ../sass/screen.scss */
+.standardBlock {
+  width: 100%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+}
+
+/* line 265, ../sass/screen.scss */
+.safetyNetBlock {
+  width: 100%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+  overflow: hidden;
+}
+/* line 268, ../sass/screen.scss */
+.safetyNetBlock .imgRight {
+  overflow: hidden;
+  height: 200px;
+}
+/* line 272, ../sass/screen.scss */
+.safetyNetBlock .imgRight img {
+  height: 100%;
+}
+
+/* line 278, ../sass/screen.scss */
+.safetyBlue {
+  float: left;
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+}
+/* line 283, ../sass/screen.scss */
+.safetyBlue h3 {
+  display: block;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: 45px;
+}
+
+/* line 295, ../sass/screen.scss */
+.servedWrapper2 {
+  width: 100%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+}
+
+/* line 299, ../sass/screen.scss */
+.equitableBlock {
+  width: 100%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+}
+
+@media only screen and (max-width: 1100px) {
+  /* line 307, ../sass/screen.scss */
+  .servedHeader {
+    width: 100%;
+    float: left;
+    margin-right: 1.69492%;
+    display: inline;
+    height: 100px;
+  }
+  /* line 310, ../sass/screen.scss */
+  .servedHeader h3 {
+    top: -17px;
+  }
+
+  /* line 314, ../sass/screen.scss */
+  .servedContent {
+    width: 100%;
+    float: left;
+    margin-right: 1.69492%;
+    display: inline;
+  }
+}
