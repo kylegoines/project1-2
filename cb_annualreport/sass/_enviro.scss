@@ -1,0 +1,303 @@
+.envirotop{
+	@include span-columns(12,12);
+	background: url('../images/enviroTop.jpg') no-repeat center top;
+	height: 600px;
+}
+
+
+
+
+.topContentSus{
+	@include span-columns(12,12);
+}
+
+
+.sustainHeader{
+	background-color: blue;
+	height: 100px;
+	width: 100px;
+	float: left;
+}
+
+
+.sustainHeader{
+	height: 200px;
+	width: 200px;
+	background-color: #95cd95;
+	h3{
+		display: block;
+
+		position: relative;
+		top: 45px;
+		color: #ffffff;
+		padding: 2px 0 28px 49px;
+		margin: 0;
+	}
+	a{
+		position: relative;
+		top: 45px;
+		color: #fff;
+		padding: 0 0 0 49px;
+	}
+}
+
+.sustainImg{
+	clear: both;
+	float: right;
+	overflow: hidden;
+	height: 200px;
+	img{
+		height: 100%;
+	}
+}
+
+/////////////////////////
+///wrappers
+////////////////////////
+
+.sustainContent{
+	@include span-columns(11,12);
+	@include push(1);
+}
+
+.sustainStatsImg{
+	@include span-columns(12,12);
+	img{
+		margin: 0 auto;
+		width: 100%;
+	}
+}
+
+.healthyBlock{
+	@include span-columns(12,12);
+	overflow: hidden;
+	margin-top: 40px;
+	.healthyImg{
+		overflow: hidden;
+		height: 200px;
+		img{
+		height: 100%;
+		}
+	}
+}
+
+.healthyHeader{
+	float: left;
+	height: 200px;
+	width: 200px;
+	background-color: #d36c53;
+	h3{
+		display: block;
+		color: #fff;
+		text-align: center;
+		position: relative;
+		top: 45px;
+	}
+}
+
+.healthyContent{
+	@include span-columns(10,12);
+	@include push(1);
+
+}
+
+.enviroWrapper{
+	@include span-columns(11,12);
+	@include push(1)
+}
+
+.farmers{
+	@include span-columns(12,12);
+	img{
+		@include span-columns(6,12);	
+	}
+}
+
+
+.farmertext{
+	@include span-columns(6 omega,12);
+}
+
+.hospital{
+	margin-top: 30px;
+	@include span-columns(12,12);
+	img{
+		@include span-columns(6,12);
+	}
+	p{
+		@include span-columns(5 omega,12);
+	}
+}
+
+
+.urban{
+	@include span-columns(12,12);
+}
+
+.healthAmerica{
+	@include span-columns(11,12);
+	@include push(1);
+	margin-top: 40px;
+}
+
+
+
+.lifestyleBlock{
+	@include span-columns(12,12);
+	overflow: hidden;
+	margin-top: 40px;
+	.lifestyleImage{
+		overflow: hidden;
+		height: 200px;
+		img{
+		height: 100%;
+		}
+	}
+}
+
+.lifestyleHeader{
+	float: left;
+	height: 200px;
+	width: 200px;
+	background-color: #2175ad;
+	h3{
+		display: block;
+		color: #fff;
+		text-align: center;
+		position: relative;
+		top: 45px;
+	}
+}
+.walkText{
+	margin-top: 40px;
+	@include span-columns(6,12);
+}
+
+.walkVideo{
+	margin-top: 40px;
+	@include span-columns(6 omega, 12);
+}
+
+
+@media only screen and (max-width: 1100px) {
+
+
+	.urban{
+		img{
+			width: 90%;
+		}
+	}
+
+
+	.hospital{
+		img{
+			width: 90%;
+		}
+		p{
+			@include span-columns(12,12);
+		}
+	}
+
+	.lifestyleHeader{
+		width: 100%;
+		height: 100px;
+		h3{
+			top: -10px;
+		}
+	}
+
+	.lifestyleImage{
+		display: none;
+	}
+
+	.healthyHeader{
+		width: 100%;
+		height: 100px;
+		h3{
+			top: -15px;
+		}
+	}
+	.healthyImg{
+		display: none;
+	}
+
+	.sustainHeader{
+		width: 100%;
+		height: 100px;
+		h3{
+			text-align: center;
+			top: 10px;
+		}
+		a{
+			display: none;
+		}
+	}
+
+	.sustainImg{
+		display: none;
+	}
+
+	.walkText{
+		@include span-columns(12,12);
+	}
+
+	.walkVideo{
+		margin: 0 auto;
+		@include span-columns(12,12);
+	}
+
+}
+
+
+@media only screen and (max-width: 846px) {
+	.enviroWrapper{
+		@include span-columns(11,12);
+		@include push(1)
+	}
+
+	.envirotop{
+		background-position: left top;
+	}
+
+	.farmers{
+		img{
+			margin: 0 auto;
+			width: 90%;
+		}
+	}
+
+	.farmertext{
+		@include span-columns(12,12);
+	}
+
+
+
+
+
+	.heal{
+		img{
+			width: 90%;
+		}
+	}
+
+
+}
+
+
+@media only screen and (max-width: 750px) {
+	#nav{
+		display: none !important;
+	}
+
+	.envirotop{
+		background-position: right top;
+	}
+
+	header{
+		display: none;
+	}
+
+
+
+}
+

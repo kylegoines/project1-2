@@ -1,0 +1,280 @@
+.investtop{
+	margin-bottom: 40px;
+	height: 600px;
+	background: url('../images/investTop.jpg') no-repeat center top;
+	@include span-columns(12,12);
+}
+
+/*
+
+.financeHeadBlock{
+	@include span-columns(4,12);
+}
+
+.financeHeader{
+	width: 200px;
+	height: 200px;
+	background: #d66c4e;
+	position: relative;
+	top: -32px;
+	h3{
+		color: #fff;
+		text-align: center;
+		position: relative;
+		top: 75px;
+	}
+}
+
+.howmuch{
+	@include span-columns(11,12);
+	@include push(1);
+}
+
+.howmuchSub, .howmuchBlue{
+	padding-left: 300px;
+	
+}
+.howmuchBlue{
+	color: #0071a0;
+}
+
+.investStats{
+	@include span-columns(12,12);
+}
+
+.financeHeader{
+	@include span-columns(12,12)
+}
+
+*/
+
+.financeHeader{
+	@include span-columns(12,12);
+	background:red;
+}
+
+.financeHeadBlock{
+	@include span-columns(4,12);
+	//background: red;
+}
+
+.financeHeader{
+
+	width: 200px !important;
+	height: 200px !important;
+	background: #d66c4e;
+	position: relative;
+	top: -40px;
+	h3{
+		color: #fff;
+		text-align: center;
+		position: relative;
+		top: 50px;;
+	}
+
+}
+
+
+.financeContent{
+	//background: blue;
+	@include span-columns(8 omega,12);
+}
+
+.contentWrapperMore{
+	@include span-columns(11,12);
+	@include push(1);
+}
+
+.howmuch{
+	@include span-columns(12,12);
+
+}
+
+.howmuchSub, .howmuchBlue{
+	float: right;
+	position: relative;
+	right: 30px;
+
+	
+}
+.howmuchBlue{
+	color: #0071a0;
+}
+
+.investStats{
+	margin-top: 40px;
+	img{
+		width: 90%;
+	}
+	@include span-columns(12,12);
+}
+
+
+.investBlock{
+	@include span-columns(12,12);
+	background-color: blue;
+	margin-top: 40px;
+	overflow: hidden;
+	.imgRight{
+
+		overflow: hidden;
+		height: 200px;
+		img{
+			height: 100%;
+		}
+	}
+}
+	.color1{
+		float: left;
+		width: 200px;
+		height: 200px;
+		background-color: #d36b53;
+		h3{
+			display: block;
+			color: #fff;
+			text-align: center;
+			position: relative;
+			top: 35px;
+		}
+
+	}
+
+	.color2{
+		float: left;
+		width: 200px;
+		height: 200px;
+		background-color: #d36b53;
+		h3{
+			display: block;
+			color: #fff;
+			text-align: center;
+			position: relative;
+			top: 35px;
+		}
+
+	}
+
+
+
+.financeHeader{
+	@include span-columns(12,12);
+}
+
+.financeImg{
+	@include span-columns(12,12);
+}
+
+.volText{
+	@include span-columns(11,12);
+	@include push(1);
+
+}
+
+.volunteerVid{
+	@include span-columns(11,12);
+	@include push(1);
+}
+
+.volunteerText{
+	@include span-columns(11,12);
+	@include push(1);
+}
+
+.gulfCoast{
+	@include span-columns(12,12);
+}
+	.gulfVid{
+
+		img{
+			display: block;
+			margin: 0 auto;
+			width: 400px;
+		}
+	}
+
+.gulfText{
+	@include span-columns(11,12);
+	@include push(1);
+}
+
+.david{
+	@include span-columns(11,12);
+	@include push(1);
+}
+	.davidImg{
+		img{
+			display: block;
+			margin: 0 auto;
+			width: 400px;
+		}
+	}
+
+.investBlock{
+	@include span-columns(12,12);
+}
+
+.volunteerText2{
+	@include span-columns(11,12);
+	@include push(1);
+}
+
+
+@media only screen and (max-width: 1100px) {
+
+	.financeHeadBlock{
+		@include span-columns(12,12);
+		//background: red;
+	}
+
+	.financeHeader{
+
+		width: 100% !important;
+		height: 100px !important;
+		background: #d66c4e;
+		position: relative;
+		top: -40px;
+		h3{
+			color: #fff;
+			text-align: center;
+			position: relative;
+			top: 0px;
+		}
+
+	}
+
+	.investBlock{
+		
+		height: 100px;
+		.color1{
+			width: 100%;
+			h3{
+				top: 0;
+			}	
+		}
+		.color2{
+			width: 100%;
+			h3{
+				top: 0px;
+			}
+		}
+		img{
+			display: none;
+		}
+	}
+
+	.volunteerVid{
+		@include span-columns(12,12);
+		img{
+			position: relative;
+			left: -10px;
+			width: 90%;
+		}
+	}
+
+	.financeContent{
+		@include span-columns(11,12);
+		@include push(1);
+	}
+
+
+}

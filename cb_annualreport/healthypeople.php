@@ -5,7 +5,7 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
     <title>Kaiser Permanente 2013 Annual Report</title>
-	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" media="all" href="stylesheets/fonts.css"/>
 	<link rel="stylesheet" media="all" href="stylesheets/screen.css"/>
     

@@ -47,7 +47,7 @@
 
 #peopleServed{
 
-	background-color: red;
+	//background-color: red;
 	margin-left: 350px;
 
 }
@@ -384,12 +384,12 @@
 
 @media only screen and (max-width: 750px) {
 	#peopleNav{
-		display: none;
+		display: none !important;
 	}
 
 	#navLight {
 		text-align: center;
-		display: block;
+		display: block !important;
 		position: fixed;
 		height: 100px;
 		width: 100%;

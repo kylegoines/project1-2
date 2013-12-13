@@ -5,8 +5,8 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
     <title>Kaiser Permanente 2013 Annual Report</title>
-	
-	<link rel="stylesheet" media="all" href="styles/style.css"/>
+	<link rel="stylesheet" media="all" href="stylesheets/fonts.css"/>
+	<link rel="stylesheet" media="all" href="stylesheets/screen.css"/>
     
   </head>
   <body>
@@ -28,8 +28,8 @@
 	  <a href="index.php"><img class="logoNavLight" src="images/navLogo.png" border="0"></a>
 	  <h5>Healthy Knowledge</h5>
 	  <a class="linkNavLight" href="#research">RESEARCH</a>
-      <a class="linkNavLight" href="#healthpro">HEALTH PROFESSIONS EDUCATION</a>
-	  <a class="linkNavLight" href="#educational">EDUCATIONAL THEATRE</a>
+      <a class="linkNavLight" href="#healthpro">HEALTH EDUCATION</a>
+	  <a class="linkNavLight" href="#educational">THEATRE</a>
 	  <a class="linkNavLight" href="#international">KP INTERNATIONAL</a>
 	</div>
     
@@ -41,17 +41,21 @@
   	   </header>
     </div>    
     <div id="peopleServed">
-		 <div class="knowledgeHeader"><a name="research"><h3>HEALTH<br>RESEARCH</h3></a></div>
-		 <div class="knowledgeHeaderLight"><a name="research"><h3>HEALTH RESEARCH</h3></a></div>
-		 <div class="knowledgeContent">
-             <p>For nearly seven decades, Kaiser Permanente research has helped nurture the generation of new knowledge in support of the total health of our members and communities. As a mission-driven organization we are motivated to find ways to achieve health equity. Our research includes:
-             <ul>
-                 <li>Disease epidemiology</li>
-                 <li>Prevention, diagnosis, and treatment of diseases (cardiovascular, diabetes, cancer, HIV/AIDS, mental health, substance abuse)</li>
-                 <li>Safety and comparative effectiveness</li>
-             </ul>
-             </p>
-         </div>
+
+    	<div class="headerBlockKnow">
+			 <div class="knowledgeHeader"><a name="research"><h3>HEALTH<br>RESEARCH</h3></a></div>
+			 <div class="knowledgeHeaderLight"><a name="research"><h3>HEALTH RESEARCH</h3></a></div>
+		</div>
+			 <div class="knowledgeContent">
+	             <p>For nearly seven decades, Kaiser Permanente research has helped nurture the generation of new knowledge in support of the total health of our members and communities. As a mission-driven organization we are motivated to find ways to achieve health equity. Our research includes:
+	             <ul>
+	                 <li>Disease epidemiology</li>
+	                 <li>Prevention, diagnosis, and treatment of diseases (cardiovascular, diabetes, cancer, HIV/AIDS, mental health, substance abuse)</li>
+	                 <li>Safety and comparative effectiveness</li>
+	             </ul>
+	             </p>
+
+     	</div>
 		 <div class="clearit"></div>
 		 
 		 <div class="knowWrapper">
@@ -85,8 +89,7 @@
 				   <p>A study of almost 200,000 young females who received the quadrivalent human papilloma virus (HPV4) vaccine found that immunization was associated only...</p>
 				 </div>
 				 <div class="column">
-				   <span class="publishTitle">ROUTINE TESTS DONE FOR</span><br>
-				   <span class="publishSub">MICROSCOPIC BLOOD IN URINE CAN BE AVOIDED</span>
+				   <span class="publishTitle">ROUTINE TESTS DONE FOR MICROSCOPIC BLOOD IN URINE CAN BE AVOIDED</span><br>
 				   <p>Study finds microscopic hematuria does not necessarily mean cancer, and has led to a new model to better predict renal and...</p>
 				 </div>
 				 <div class="column">
@@ -98,16 +101,24 @@
 			   </div>
     		 </div>
 		
-		 <div class="knowHeaderWrapper2">
-    		 <div class="knowledgeHeader2"><a name="educational"><h3>EDUCATIONAL<br>THEATRE</h3></a></div>
-    		 <div class="knowledgeContent2"></div>
-             <div class="clearit"></div>
+
+		<div class="knowBlock">
+			   <div class="colorBlock"><a name="educational"><h3>EDUCATIONAL<br>THEATRE</h3></a></div>
+			   <div class="imgRight"><img src="images/knowledgeHeader2.jpg"></div>
+			   <div class="clearit"></div>
+		 </div>
+
+
+
+
 
              <div class="knowledgeQuote">
-    		 <p>" There is not a single education theatre company that reaches the number of students and adults that Educational Theatre Program reaches."</p>
-    		 <span class="signature">Russell Granet,</span>
-    		 <span class="signature">Founder of Arts Education</span>
-    		 <span class="signature">Resource in New York City.</span>
+	            <div class="quoteBox">
+		    		 <p>" There is not a single education theatre company that reaches the number of students and adults that Educational Theatre Program reaches."</p>
+		    		 <span class="signature">Russell Granet,</span><br>
+		    		 <span class="signature">Founder of Arts Education</span><br>
+		    		 <span class="signature">Resource in New York City.</span><br>
+	    		</div>
              </div>
     		 <div class="clearit"></div>
 		 
@@ -119,14 +130,14 @@
     		   </div>    		 
 		    </div>
 		 
-		 </div>
-		 
-		 <div class="knowHeaderWrapper3">
-		 	  <div class="knowledgeHeader3"><a name="international"><h3>SHARING<BR>KNOWLEDGE</h3></a></div>
-			  <div class="knowledgeContent3">
-    		 	  <p>A Forum for Sharing our Knowledge and Experience</p>
-			 </div>			 
-			 <div class="clearit"></div>			 
+
+
+
+
+		<div class="knowBlock">
+			   <div class="colorBlockGreen"><a name="international"><h3 class="green">SHARING<BR>KNOWLEDGE</h3></a></div>
+			   <div class="imgRight"><img src="images/knowledgeHeader2.jpg"></div>
+			   <div class="clearit"></div>
 		 </div>
 		 
 		 <div class="sharingWrapper">
@@ -138,13 +149,14 @@
              <div class="sharingImg"><img src="images/internationalStats.jpg"></div>
 			  <div class="clearit"></div>
 
-             <div class="internationalLink"><a href="http://xnet.kp.org/kpinternational" target="_blank"><h4>KP International</h4></a>
-                 <a href="http://xnet.kp.org/kpinternational" target="_blank">read more >></a></div>
-             <div class="internationalLink"><a href="http://www.kpihp.org" target="_blank"><h4>Institute for Health Policy</h4></a>
-                 <a href="http://www.kpihp.org" target="_blank">read more >></a></div>
-             <div class="internationalLink"><a href="http://share.kaiserpermanente.org/article/healthy-eating-active-living-heal-grants-partnerships/" target="_blank"><h4>The Healthy Eating Active Living – Community Health Initiative</h4></a>
-                 <a href="http://share.kaiserpermanente.org/article/healthy-eating-active-living-heal-grants-partnerships/" target="_blank">read more >></a></div>
-
+			  <div class="knowCols">
+	             <div class="internationalLink"><a href="http://xnet.kp.org/kpinternational" target="_blank"><h4>KP International</h4></a>
+	                 <a href="http://xnet.kp.org/kpinternational" target="_blank">read more >></a></div>
+	             <div class="internationalLink"><a href="http://www.kpihp.org" target="_blank"><h4>Institute for Health Policy</h4></a>
+	                 <a href="http://www.kpihp.org" target="_blank">read more >></a></div>
+	             <div class="internationalLink"><a href="http://share.kaiserpermanente.org/article/healthy-eating-active-living-heal-grants-partnerships/" target="_blank"><h4>The Healthy Eating Active Living – Community Health Initiative</h4></a>
+	                 <a href="http://share.kaiserpermanente.org/article/healthy-eating-active-living-heal-grants-partnerships/" target="_blank">read more >></a></div>
+             </div>
          </div>
 		 
 		 <!--

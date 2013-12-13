@@ -5,8 +5,8 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
     <title>Kaiser Permanente 2013 Annual Report</title>
-	
-	<link rel="stylesheet" media="all" href="styles/style.css"/>
+	<link rel="stylesheet" media="all" href="stylesheets/fonts.css"/>
+	<link rel="stylesheet" media="all" href="stylesheets/screen.css"/>
     
   </head>
   <body>
@@ -39,8 +39,10 @@
   	   </header>
     </div>    
     <div id="peopleServed">
-		 <div class="financeHeader"><a name="finances"><h3>FINANCES</h3></a></div>
-		 <div class="financeHeaderLight"><a name="finances"><h3>FINANCES</h3></a></div>
+    	<div class="financeHeadBlock">
+		 	<div class="financeHeader"><a name="finances"><h3>FINANCES</h3></a></div>
+		 	<div class="financeHeaderLight"><a name="finances"><h3>FINANCES</h3></a></div>
+		</div>
 		 <div class="financeContent">
 		   <p>At Kaiser Permanente, we take our commitment of service to our communities literally and personally. By supporting people with financial resources, organizational resources and our time, we help to reinforce a culture of compassion and service that touches the lives of many.</p>
 		 </div>
@@ -50,7 +52,7 @@
     		 <div class="howmuch">
     			   <p>"Our mission and our vision requires that we address the total health of the people in our communities. To do so, we care for those in need and invest in effective programs where they live, work, learn and play." </p>
     			   <span class="howmuchBlue">- Raymond J. Baxter, PhD</span><br>
-    			   <span class="howmuchSub">Senior Vice President,</span>
+    			   <span class="howmuchSub">Senior Vice President,</span><br>
 				   <span class="howmuchSub">Community Benefit, </span><br>
     			   <span class="howmuchSub">Research and Health Policy</span>
     		 </div>
@@ -89,10 +91,15 @@
 		 <div class="clearit"></div>
 		 -->
 		 
-		 <div class="financeHeader"><a name="scholorships"><h3>COMMUNITY SERVICE</h3></a></div>
-		 <div class="financeHeaderLight"><a name="scholorships"><h3>COMMUNITY SERVICE</h3></a></div>
-		 <div class="financeImg"><img src="images/construct.jpg"></div>
-		 <div class="clearit"></div>
+		<div class="investBlock">
+			   <div class="color1"><a name="volunteer"><h3>COMMUNITY SERVICE</h3></a></div>
+			   <div class="imgRight"><img src="images/construct.jpg"></div>
+			   <div class="clearit"></div>
+		 </div>
+
+
+
+
 		 <div class="volText">
 		 	  <p>Eight years ago, Kaiser Permanente established an annual day of service on Martin Luther King, Jr. Day to honor and recognize Dr. King and his advancement of civil and human rights. This has enabled thousands of Kaiser Permanente employees and physicians to provide valuable services to their communities and to further advance the Kaiser Permanente legacy that parallels Dr. King’s values.</p>
 		 </div>
@@ -119,11 +126,12 @@
 			  <div class="clearit"></div>
 		 </div>
 		 
-		 
-		 <div class="scholarHeader"><a name="scholorships"><h3>LEADERSHIP</h3></a></div>
-		 <div class="scholarHeaderLight"><a name="scholorships"><h3>LEADERSHIP</h3></a></div>
-		 <div class="scholarContent"><img src="images/scholarHeader.jpg"></div>
-		 <div class="clearit"></div>
+
+		<div class="investBlock">
+			   <div class="color2"><a name="scholorships"><h3>LEADERSHIP</h3></a></div>
+			   <div class="imgRight"><img src="images/scholarHeader.jpg"></div>
+			   <div class="clearit"></div>
+		 </div>
 		 
 		 <div class="volunteerText2">
 		   <p>Kaiser Permanente has sponsored various programs to help develop and advance leaders from diverse cultural backgrounds and underrepresented communities in an effort to expand the diversity of health care workforce in the country. We've supported the development and sponsorships for UC Berkeley Public Health Scholars, UCLA International Medical Graduates, Satcher Health Leadership Institute Fellows, Institute for Healthcare Improvement Safety Net Fellowship and a host of others.</p>

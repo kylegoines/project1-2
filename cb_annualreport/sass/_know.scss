@@ -1,0 +1,353 @@
+.knowledgetop {
+	background: url('../images/knowledgeTop.jpg') no-repeat center top;
+	height: 600px;
+	@include span-columns(12,12);
+}
+
+.headerBlockKnow{
+	@include span-columns(5,12);
+
+}
+	.knowledgeHeader{
+		background: #da9201;
+		position: relative;
+		top: -32px;
+		height: 200px;
+		width: 200px;
+		h3{
+			color: #fff;
+			text-align: center;
+			padding-top: 50px;
+		}
+		
+	}
+
+
+.knowledgeContent{
+	@include span-columns(7 omega,12);
+	li{
+		font-size: 16pt;
+	}
+
+}
+
+.knowWrapper{
+	@include span-columns(11,12);
+	@include push(1);
+}
+	.training{
+		margin-top: 40px;
+		@include span-columns(12,12);
+	}
+
+	.trainingText{
+		@include span-columns(5,12);
+	}
+
+	.trainingImg{
+		margin-top: 40px;
+		@include span-columns(6 omega, 12);
+ 		@include post(1); 
+		img{
+			width: 99%;
+		}
+	}
+
+
+
+.focus{
+	position: relative;
+	left: -20px;
+	@include span-columns(11,12);
+	@include push(1);
+	background: url('../images/focusBack.jpg') no-repeat;
+	img{
+		width: 100%;
+	}
+}
+
+	.publish{
+		@include span-columns(12,12);
+		h4{
+			margin: 10px 0 40px 0;
+		}
+	}
+
+
+	.publishWrapper{
+
+	}
+
+	.column{
+		@include span-columns(3,12);
+		@include nth-omega(4n);
+		background-color: #fff;
+		 -moz-box-shadow:    1px 3px 5px 1px #ccc;
+		  -webkit-box-shadow: 1px 3px 5px 1px #ccc;
+		  box-shadow:         1px 3px 5px 1px #ccc;
+		  min-height: 260px;
+		  span{
+		  	display: block;
+		  	padding: 9px;
+		  }
+		p{
+			padding: 9px;
+			font-size: 90%;
+		}
+	}
+
+	.publishTitle {
+		font-size: 11pt;
+	}
+
+.knowHeaderWrapper2{
+	@include span-columns(12,12);
+}
+
+
+
+
+.knowBlock{
+	@include span-columns(12,12);
+	background-color: blue;
+	margin-top: 40px;
+	overflow: hidden;
+	.imgRight{
+
+		overflow: hidden;
+		height: 200px;
+		img{
+			height: 100%;
+		}
+	}
+}
+	.colorBlock{
+		float: left;
+		width: 200px;
+		height: 200px;
+		background-color: #d36b53;
+		h3{
+			display: block;
+			color: #fff;
+			text-align: center;
+			position: relative;
+			top: 35px;
+		}
+
+	}
+
+	.knowledgeQuote{
+		margin-top: 40px;
+		@include span-columns(12,12);
+		.quoteBox{
+			color: #fff;
+			background-color: #d36b53;
+			padding: 40px;
+			width: 70%;
+			margin: 0 auto;
+		}
+		.signature{
+			float: right;
+			font-size: 11pt;
+
+		}
+	}
+
+
+
+
+.contentWrapper{
+	@include span-columns(12,12);
+
+}
+
+.years{
+	position: relative;
+	//left: -20px;
+	margin-top: 40px;
+	@include span-columns(11,12);
+	@include push(1);
+}
+
+
+.leftYear{
+	@include span-columns(6 omega,12);
+}
+
+
+
+
+
+
+
+
+
+
+
+.knowHeaderWrapper3{
+	@include span-columns(12,12);
+	background-color: red;
+}
+
+
+
+	.colorBlockGreen{
+		float: left;
+		width: 200px;
+		height: 200px;
+		background-color: #99cf99;
+		h3{
+			display: block;
+			color: #fff;
+			text-align: center;
+			position: relative;
+			top: 35px;
+		}
+
+	}
+
+
+.internationalLink{
+	margin-top: 40px;
+	position: relative;
+	left: -30px;
+	-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+	background-color: #99cf99;
+	padding: 5px;
+	min-height: 300px;
+	@include span-columns(4,12);
+	@include nth-omega(3n);
+	a{
+		text-decoration: none;
+		color: #fff;
+	}
+
+}
+
+.knowCols{
+	@include span-columns(12,12);
+}
+
+
+.sharingWrapper{
+	margin-top: 40px;
+	@include span-columns(11,12);
+	@include push(1);
+}
+
+.sharingText{
+	@include span-columns(6,12);
+}
+
+.sharingImg{
+	margin-top: 30px;
+	@include span-columns(6 omega, 12);
+	img{
+		width: 90%;
+	}
+}
+
+
+@media only screen and (max-width: 1100px) {
+
+	.knowledgeHeader{
+		width: 100%;
+		height: 100px;
+		clear: both;
+		//@include span-columns(12,12);
+		h3{
+			position: relative;
+			top: -40px;
+		}
+
+	}
+
+	h3.green{
+		position: relative !important;
+		top: 10px !important;
+	}
+
+	.headerBlockKnow{
+		@include span-columns(12,12);
+	}
+
+	.knowledgeContent{
+		clear: both;
+		@include span-columns(11,12);
+		@include push(1);
+	}
+
+	.knowBlock{
+		height: 100px;
+		h3{
+			position: relative;
+			top: 10px;
+		}
+		.colorBlock, .colorBlockGreen{
+
+			width: 100%;
+		}
+		img{
+			display: none;
+		}
+	}
+
+	.yearsImg{
+		display: block;
+		margin-bottom: 40px;
+		@include span-columns(12,12);
+	}
+
+}
+
+
+@media only screen and (max-width: 846px) {
+	.column{
+		 @include remove-omega;
+		 @include span-columns(6,12);
+		 @include nth-omega(2n);
+		 min-height: 200px;
+		 margin-top: 20px;
+	}
+
+	.sharingText{
+		@include span-columns(12,12);
+	}
+
+	.sharingImg{
+		@include span-columns(12,12);
+	}
+
+	.internationalLink{
+		@include span-columns(12,12);
+		min-height: 140px;
+	}
+
+	.trainingText{
+		@include span-columns(12,12);
+	}
+
+	.trainingImg{
+		@include span-columns(12,12);
+		position: relative;
+		left: -20px;
+		margin-bottom: 40px;
+	}
+}
+
+
+@media only screen and (max-width: 750px) {
+	.knowBlock{
+		h3{
+			top: -20px;
+		}
+	}
+
+	.knowledgetop{
+		background-position: right top;
+	}
+
+	.internationalLink{
+		left: -15px;
+	}
+}

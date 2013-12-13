@@ -5,8 +5,8 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
     <title>Kaiser Permanente 2013 Annual Report</title>
-	
-	<link rel="stylesheet" media="all" href="styles/style.css"/>
+	<link rel="stylesheet" media="all" href="stylesheets/fonts.css"/>
+	<link rel="stylesheet" media="all" href="stylesheets/screen.css"/>
 	
   </head>
   <body>
@@ -18,24 +18,24 @@
 	  <ul>
 	    <li><a href="#sustainability">ENVIRONMENTAL STEWARDSHIP</a></li>
         <li><a href="#healthy">HEALTHY EATING</a></li>
-        <li><a href="#active">ACTIVE LIVING</a></li>
+        <li><a href="#living">ACTIVE LIVING</a></li>
 	  </ul>
-          <div class="homeLink"><a href="index.php">< Back Home</a></div>
+      <div class="homeLink"><a href="index.php">< Back Home</a></div>
 	</div>
 	
 	<div id="navLight">
 	  <a href="index.php"><img class="logoNavLight" src="images/navLogo.png" border="0"></a>
 	  <h5>Healthy Environments</h5>
-	  <a class="linkNavLight" href="#sustainability">ENVIRONMENTAL STEWARDSHIP</a>
+	  <a class="linkNavLight" href="#sustainability">DESIGN</a>
 	  <a class="linkNavLight" href="#lifestyle">HEALTHY EATING</a>
-      <a class="linkNavLight" href="#lifestyle">ACTIVE LIVING</a>
+      <a class="linkNavLight" href="#active2">ACTIVE LIVING</a>
 	</div>
 	
     
     <div class="envirotop">
        <header>
   	     <div class="enviroBlue"><a href="#lifestyle"><h3>HEALTHY EATING</h3></a></div>
-		 <div class="enviroCoral"><a href="#nutrition"><h3>ACTIVE LIVING</h3></a></div>
+		 <div class="enviroCoral"><a href="#active2"><h3>ACTIVE LIVING</h3></a></div>
 		 <div class="enviroGreen"><a href="#sustainability"><h3>SUSTAINABILITY</h3></a></div>	   
   	   </header>
     </div>    
@@ -59,13 +59,14 @@
 		 
 		 <div class="sustainStatsImg">
 		   <img src="images/sustainStats.jpg">
-		   <p><img src="images/sustainStats2.jpg"></p>
-		   <p><img src="images/award.jpg"></p>
+		   <img src="images/sustainStats2.jpg">
+		   <img src="images/award.jpg">
 		 </div>
-		 
-		 <div class="healthyHeader"><a name="healthy"><h3>HEALTHY<br>EATING</h3></a></div>
-         <div class="healthyImg"><img src="images/healthyEating.jpg"></div>
-		 <div class="healthyHeaderLight"><a name="healthy"><h3>HEALTHY EATING</h3></a></div>
+		 <div class="healthyBlock">
+			 <div class="healthyHeader"><a name="healthy"><h3>HEALTHY<br>EATING</h3></a></div>
+	         <div class="healthyImg"><img src="images/healthyEating.jpg"></div>
+			 <div class="healthyHeaderLight"><a name="healthy"><h3>HEALTHY EATING</h3></a></div>
+		</div><!--kyle-block-->
 		 <div class="healthyContent">
 		 <p align="center"><b>HEALTHY COMMUNITIES = HEALTHY NUTRITION</b></p>
 		 <p>Part of thriving is eating food that leads to healthy bodies. Food and nutrition can be the No. 1 preventative measure for many diseases and conditions.  At Kaiser Permanente, we are commited to making healthy food available to our communities.</p>
@@ -75,13 +76,14 @@
 		 <div class="enviroWrapper">
     		 <div class="farmers">
     		   <a href="http://recipe.kaiser-permanente.org/ "><img src="images/farmersImg2.jpg"></a>
-			   <a name="safteynet"><p><b>FARMERS MARKETS</b></p></a>
-    		   <p>In May 2002, Preston Maring, MD, founded one of the first hospital-based farmers markets at the Kaiser Permanente Oakland Medical Center. Today we support over 50 farmers markets.</p>
+			   <div class="farmertext">
+				   <a name="safteynet"><p><b>FARMERS MARKETS</b></p></a>
+	    		   <p>In May 2002, Preston Maring, MD, founded one of the first hospital-based farmers markets at the Kaiser Permanente Oakland Medical Center. Today we support over 50 farmers markets.</p>
+	    		</div><!--farmtext-->
              </div>
 			 
 			 <div class="hospital">
     		   <img src="images/mealserved.png">
-			   <p>&nbsp;</p>
 			   <p><b>HOSPITAL HEALTHY FOOD INITIATIVE</b></p>
     		   <p>On Oct. 6, 2012, Kaiser Permanente and its 37 hospitals teamed up with the Partnership For a Healthier America to deliver healthier options for patients, guests and employees throughout its facilities. Our healthy food initiatives help us set an example in our communities by purchasing and serving healthier, more sustainable food.</p>
              </div>
@@ -107,9 +109,13 @@
              </div>
          </div>
 		 
-		 <div class="lifestyleHeader"><a name="active"><h3>ACTIVE<br>LIVING</h3></a></div>
-		 <div class="lifestyleHeaderLight"><a name="active"><h3>ACTIVE LIVING</h3></a></div>
-		 <div class="lifestyleImage"><img src="images/activeLiving.jpg"></div>
+
+		 <div class="lifestyleBlock">
+			 <div class="lifestyleHeader"><a name="living"><h3>ACTIVE<br>LIVING</h3></a></div>
+			 <div class="lifestyleHeaderLight"><a name="living"><h3>Active Living</h3></a></div>
+			 <div class="lifestyleImage"><img src="images/activeLiving.jpg"></div>
+		</div><!--kyle-block-->
+
 		 <div class="clearit"></div>
 		 
 		 <div class="enviroWrapper">
