@@ -96,7 +96,7 @@
 			 <div class="freeSurgery">			   
 			   <h4>Free Surgery Days</h4>			   
 			   <p>Every summer since 2008, Kaiser Permanente staff and physicians donate their time to perform a range of surgeries, ranging from hernia repairs to skin cancer removal. Community hospital and clinic partners help identify and screen potential patients.<br>
-               <a class="readmore" href="http://www.utsandiego.com/news/2012/oct/18/kaiser-medical-society-set-for-10th-free-surgery/" target="_blank">Read more: Kaiser, medical society set for 10th free surgery day Saturday</a></p>
+               <a class="readmore" href="http://www.utsandiego.com/news/2012/oct/18/kaiser-medical-society-set-for-10th-free-surgery/" target="_blank">Read more: Kaiser Permanente, medical society set for 10th free surgery day Saturday</a></p>
 			 </div>
 			 
 		 </div>
