@@ -1,0 +1,52 @@
+// ---------------------------------------------------------------------------
+// Imports
+
+@import "base";
+@import "typography";
+@import "navs";
+@import "healthyPeople";
+@import "enviro";
+@import "know";
+@import "invest";
+
+/* -------------------------------------------------------------------------*/
+/* Layout */
+
+/////////////////////////////////////////////
+//variables and globals
+/////////////////////////////////////////////
+$total-columns: 24;
+
+html, body{
+	margin: 0;
+
+}
+
+body {
+	font-family: AvenirNextLTPro-Regular, sans-serif;
+	font-size: 12pt;
+}
+
+
+
+
+.pageWrapper{
+	@include container;
+	overflow: hidden;
+	max-width: 1200px;
+	padding-left: 0;
+	padding-right: 0;
+
+}
+
+p{
+	padding-right: 1em;
+}
+
+img{
+
+}
+
+
+
+

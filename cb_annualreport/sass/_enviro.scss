@@ -168,6 +168,10 @@
 		top: 45px;
 	}
 }
+
+.walk{
+
+}
 .walkText{
 	margin-top: 40px;
 	@include span-columns(6,12);
@@ -176,6 +180,11 @@
 .walkVideo{
 	margin-top: 40px;
 	@include span-columns(6 omega, 12);
+}
+
+
+.padding{
+	@extend %bottomPadding;
 }
 
 
@@ -297,6 +306,9 @@
 		display: none;
 	}
 
+	.padding{
+		height: 100px;
+	}
 
 
 }

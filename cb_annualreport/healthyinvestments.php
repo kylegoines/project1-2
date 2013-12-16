@@ -136,6 +136,9 @@
 		 <div class="volunteerText2">
 		   <p>Kaiser Permanente has sponsored various programs to help develop and advance leaders from diverse cultural backgrounds and underrepresented communities in an effort to expand the diversity of health care workforce in the country. We've supported the development and sponsorships for UC Berkeley Public Health Scholars, UCLA International Medical Graduates, Satcher Health Leadership Institute Fellows, Institute for Healthcare Improvement Safety Net Fellowship and a host of others.</p>
 		 </div>
+
+		 <div class="padding">
+		 </div>
 		 
 	</div>
 	

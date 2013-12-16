@@ -76,7 +76,7 @@
 			
 			 	 
 			 <div class="publish">
-    		   <a name="safteynet">A SAMPLE OF SOME OF KAISER PERMENENTE'S
+    		   <a name="safteynet">A SAMPLE OF SOME OF KAISER PERMANENTE'S
 			   <h4>PUBLISHED RESEARCH 2012</h4></a>
     		   
 			   <div class="publishWrapper">
@@ -158,7 +158,7 @@
 	                 <a href="http://share.kaiserpermanente.org/article/healthy-eating-active-living-heal-grants-partnerships/" target="_blank">read more >></a></div>
              </div>
          </div>
-		 
+		 <div class="padding"></div>
 		 <!--
 		 <div class="standardGreen">
 		   <div class="standardText">

@@ -1,3 +1,13 @@
+/* line 16, ../sass/_base.scss */
+.padding {
+  width: 100%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+  height: 200px;
+  display: block;
+}
+
 /* line 5, ../sass/_typography.scss */
 h1 {
   color: #fff;
@@ -902,7 +912,7 @@ p {
   top: 45px;
 }
 
-/* line 171, ../sass/_enviro.scss */
+/* line 175, ../sass/_enviro.scss */
 .walkText {
   margin-top: 40px;
   width: 49.15254%;
@@ -911,7 +921,7 @@ p {
   display: inline;
 }
 
-/* line 176, ../sass/_enviro.scss */
+/* line 180, ../sass/_enviro.scss */
 .walkVideo {
   margin-top: 40px;
   width: 49.15254%;
@@ -922,16 +932,16 @@ p {
 }
 
 @media only screen and (max-width: 1100px) {
-  /* line 186, ../sass/_enviro.scss */
+  /* line 195, ../sass/_enviro.scss */
   .urban img {
     width: 90%;
   }
 
-  /* line 193, ../sass/_enviro.scss */
+  /* line 202, ../sass/_enviro.scss */
   .hospital img {
     width: 90%;
   }
-  /* line 196, ../sass/_enviro.scss */
+  /* line 205, ../sass/_enviro.scss */
   .hospital p {
     width: 100%;
     float: left;
@@ -939,57 +949,57 @@ p {
     display: inline;
   }
 
-  /* line 201, ../sass/_enviro.scss */
+  /* line 210, ../sass/_enviro.scss */
   .lifestyleHeader {
     width: 100%;
     height: 100px;
   }
-  /* line 204, ../sass/_enviro.scss */
+  /* line 213, ../sass/_enviro.scss */
   .lifestyleHeader h3 {
     top: -10px;
   }
 
-  /* line 209, ../sass/_enviro.scss */
+  /* line 218, ../sass/_enviro.scss */
   .lifestyleImage {
     display: none;
   }
 
-  /* line 213, ../sass/_enviro.scss */
+  /* line 222, ../sass/_enviro.scss */
   .healthyHeader {
     width: 100%;
     height: 100px;
   }
-  /* line 216, ../sass/_enviro.scss */
+  /* line 225, ../sass/_enviro.scss */
   .healthyHeader h3 {
     top: -15px;
   }
 
-  /* line 220, ../sass/_enviro.scss */
+  /* line 229, ../sass/_enviro.scss */
   .healthyImg {
     display: none;
   }
 
-  /* line 224, ../sass/_enviro.scss */
+  /* line 233, ../sass/_enviro.scss */
   .sustainHeader {
     width: 100%;
     height: 100px;
   }
-  /* line 227, ../sass/_enviro.scss */
+  /* line 236, ../sass/_enviro.scss */
   .sustainHeader h3 {
     text-align: center;
     top: 10px;
   }
-  /* line 231, ../sass/_enviro.scss */
+  /* line 240, ../sass/_enviro.scss */
   .sustainHeader a {
     display: none;
   }
 
-  /* line 236, ../sass/_enviro.scss */
+  /* line 245, ../sass/_enviro.scss */
   .sustainImg {
     display: none;
   }
 
-  /* line 240, ../sass/_enviro.scss */
+  /* line 249, ../sass/_enviro.scss */
   .walkText {
     width: 100%;
     float: left;
@@ -997,7 +1007,7 @@ p {
     display: inline;
   }
 
-  /* line 244, ../sass/_enviro.scss */
+  /* line 253, ../sass/_enviro.scss */
   .walkVideo {
     margin: 0 auto;
     width: 100%;
@@ -1007,7 +1017,7 @@ p {
   }
 }
 @media only screen and (max-width: 846px) {
-  /* line 253, ../sass/_enviro.scss */
+  /* line 262, ../sass/_enviro.scss */
   .enviroWrapper {
     width: 91.52542%;
     float: left;
@@ -1016,18 +1026,18 @@ p {
     margin-left: 8.47458%;
   }
 
-  /* line 258, ../sass/_enviro.scss */
+  /* line 267, ../sass/_enviro.scss */
   .envirotop {
     background-position: left top;
   }
 
-  /* line 263, ../sass/_enviro.scss */
+  /* line 272, ../sass/_enviro.scss */
   .farmers img {
     margin: 0 auto;
     width: 90%;
   }
 
-  /* line 269, ../sass/_enviro.scss */
+  /* line 278, ../sass/_enviro.scss */
   .farmertext {
     width: 100%;
     float: left;
@@ -1035,25 +1045,30 @@ p {
     display: inline;
   }
 
-  /* line 278, ../sass/_enviro.scss */
+  /* line 287, ../sass/_enviro.scss */
   .heal img {
     width: 90%;
   }
 }
 @media only screen and (max-width: 750px) {
-  /* line 288, ../sass/_enviro.scss */
+  /* line 297, ../sass/_enviro.scss */
   #nav {
     display: none !important;
   }
 
-  /* line 292, ../sass/_enviro.scss */
+  /* line 301, ../sass/_enviro.scss */
   .envirotop {
     background-position: right top;
   }
 
-  /* line 296, ../sass/_enviro.scss */
+  /* line 305, ../sass/_enviro.scss */
   header {
     display: none;
+  }
+
+  /* line 309, ../sass/_enviro.scss */
+  .padding {
+    height: 100px;
   }
 }
 /* line 1, ../sass/_know.scss */

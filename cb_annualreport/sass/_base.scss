@@ -12,3 +12,9 @@ $gutter-width   : 1em;
 $grid-padding   : $gutter-width;
 
 $show-grid-backgrounds  : true;
+
+%bottomPadding{
+	@include span-columns(12,12);
+	height: 200px;
+	display: block;
+}

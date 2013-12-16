@@ -139,7 +139,7 @@
                    <a href="http://youtu.be/JJnJWiS65Vg" target="_blank"><img src="images/walkVid1.jpg"></a><br>
                    <a href="http://youtu.be/viiTrf1X_Gc" target="_blank"><img src="images/walkVid2.jpg"></a>
                </div>
-               <div class="clearit"></div>
+               <div class="padding"></div>
            </div>
 		   
 		 </div>
