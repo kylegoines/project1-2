@@ -104,7 +104,7 @@
 				<div class="clearit"></div>
 
              <div class="weightNation">
-                 <a href="http://share.kaiserpermanente.org/static/weightofthenation/index.html "><h4>Weight of the Nation</h4></a>
+                 <a href="http://share.kaiserpermanente.org/static/weightofthenation/index.html"><h4>Weight of the Nation </h4></a>
                  <p>Kaiser Permanente partnered with HBO (Home Box Office), the Institute of Medicine, the National Institutes of Health, the Centers for Disease Control and Prevention and the Michael & Susan Dell Foundation to launch one of the most ambitious public health campaigns addressing America’s obesity epidemic to date. We hosted screenings of the four one-hour films and held town hall meetings and distributed more than 30,000 screening kits.</p>
              </div>
          </div>
@@ -132,7 +132,7 @@
 		   
 		   <div class="walk">
     		   <div class="walkText">
-    		   	<a href="http://everybodywalk.org/"><img class="everybodyImg" src="images/walk.jpg"></a>
+    		   		<a href="http://everybodywalk.org/"><img class="everybodyImg" src="images/walk.jpg"></a>
                    <p>Kaiser Permanente’s Every Body Walk! program is aimed at getting Americans up and moving. Through the help of our partners, we are working to spread the message that walking 30 minutes a day, five days a week really can improve your health. We support policies and practices that make our communities more walkable. </p>
                </div>
                <div class="walkVideo">

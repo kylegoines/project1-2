@@ -1,0 +1,458 @@
+/* Base CSS styles for the KP 2013 Annual Reports */
+
+html { height: 100%; width: 100%; margin: 0; }
+
+/*  Fonts  */
+
+@font-face {
+font-family: AvenirNextLTPro-Regular;
+src: url('fonts/AvenirNextLTPro-Regular.eot');
+src: url('fonts/AvenirNextLTPro-Regular.otf') format('embedded-opentype'),
+     url('fonts/AvenirNextLTPro-Regular.svg') format('svg'),
+     url('fonts/AvenirNextLTPro-Regular.woff') format('woff'); 
+}
+@font-face {
+font-family: AvenirNextLTPro-Demi;
+src: url('fonts/AvenirNextLTPro-Demi.eot'),
+     url('fonts/AvenirNextLTPro-Demi.otf'),
+     url('fonts/AvenirNextLTPro-Demi.svg'),
+     url('fonts/AvenirNextLTPro-Demi.woff');
+} 
+@font-face {
+font-family: AvenirNextLTPro-DemiCn;
+src: url('fonts/AvenirNextLTPro-DemiCn.eot'),
+     url('fonts/AvenirNextLTPro-DemiCn.otf'),
+     url('fonts/AvenirNextLTPro-DemiCn.svg'),
+     url('fonts/AvenirNextLTPro-DemiCn.woff'); 
+} 
+@font-face {
+font-family: AvenirNextLTPro-MediumCn;
+src: url('fonts/AvenirNextLTPro-MediumCn.eot'),
+     url('fonts/AvenirNextLTPro-MediumCn.otf'),
+     url('fonts/AvenirNextLTPro-MediumCn.svg'),
+     url('fonts/AvenirNextLTPro-MediumCn.woff'); 
+}
+@font-face {
+font-family: AvenirNextLTPro-BoldCn;
+src: url('fonts/AvenirNextLTPro-BoldCn.eot'),
+     url('fonts/AvenirNextLTPro-BoldCn.otf'),
+     url('fonts/AvenirNextLTPro-BoldCn.svg'),
+     url('fonts/AvenirNextLTPro-BoldCn.woff'); 
+}
+@font-face {
+font-family: AvenirNextLTPro-BoldCnIt;
+src: url('fonts/AvenirNextLTPro-BoldCnIt.eot'),
+     url('fonts/AvenirNextLTPro-BoldCnIt.otf'),
+     url('fonts/AvenirNextLTPro-BoldCnIt.svg'),
+     url('fonts/AvenirNextLTPro-BoldCnIt.woff'); 
+}
+@font-face {
+font-family: AvenirNextLTPro-It;
+src: url('fonts/AvenirNextLTPro-It.eot'),
+     url('fonts/AvenirNextLTPro-It.otf'),
+     url('fonts/AvenirNextLTPro-It.svg'),
+     url('fonts/AvenirNextLTPro-It.woff'); 
+}
+@font-face {
+font-family: AvenirNextLTPro-Cn;
+src: url('fonts/AvenirNextLTPro-Cn.eot'),
+     url('fonts/AvenirNextLTPro-Cn.otf'),
+     url('fonts/AvenirNextLTPro-Cn.svg'),
+     url('fonts/AvenirNextLTPro-Cn.woff');
+}
+@font-face {
+font-family: AvenirNextLTPro-UltLtCn;
+src: url('fonts/AvenirNextLTPro-UltLtCn.eot'),
+     url('fonts/AvenirNextLTPro-UltLtCn.otf'),
+     url('fonts/AvenirNextLTPro-UltLtCn.svg'),
+     url('fonts/AvenirNextLTPro-UltLtCn.woff'); 
+}
+@font-face {
+    font-family: 'Avenir-Light';
+    src: url('fonts/avenirltstd-light-webfont.eot');
+    src: url('fonts/avenirltstd-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/avenirltstd-light-webfont.woff') format('woff'),
+         url('fonts/avenirltstd-light-webfont.ttf') format('truetype'),
+		 url('fonts/avenirltstd-light-webfont.svg#avenir_lt_std_35_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* base styles and fonts */
+
+body { font-family: AvenirNextLTPro-Regular, sans-serif; font-size: 12pt; margin: 0; padding: 0; height: 100%;  }
+
+h1 { font-size: 34pt; text-transform: uppercase; font-family: AvenirNextLTPro-DemiCn; }
+h2 { font-size: 30pt; font-family: AvenirNextLTPro-MediumCn; }
+h3 { font-size: 24pt; font-family: AvenirNextLTPro-Cn; }
+h4 { font-size: 20pt; font-family: AvenirNextLTPro-Regular; }
+h5 { font-size: 16pt; font-family: AvenirNextLTPro-Demi; text-transform: uppercase;  }
+
+p { font-size: 16pt; font-family: Avenir-Light; }
+li { font-size: 16pt; font-family: Avenir-Light; }
+.smallText { font-size: 12pt; }
+
+.clearit { clear: both; }
+
+/* full background images */
+
+#splashWrapper {
+  background: url(../images/splashimage.jpg) no-repeat center top fixed; 
+  height: 100%; min-height: 800px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/splashimage.jpg', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/splashimage.jpg', sizingMethod='scale')";
+} 
+
+/* letter */
+#letter { width: 1000px; margin: 50px auto; }
+.leftCol { float: left; background: #bfd5a8; width: 35%; }
+.rightCol { float: right; width: 60%;  }
+#letter p { font-size: 14pt; }
+.letterRight { text-align: right; width: 100%; }
+.textBottom { padding: 20px 30px 50px; }
+#letter ul { list-style: square; }
+.leftCol ul { color: #ffffff; }
+.leftCol li, .rightCol li { margin-bottom: 20px; }
+
+/* Layout Styles */
+
+#logo { width: 100%; text-align: center; padding-top: 40px; }
+.mainTitle { color: #ffffff; background: #0083bb; margin: 0 auto; padding: 20px 0; width: 375px; text-align: center; font-size: 16pt; text-shadow: 4px 4px 2px rgba(102, 102, 102, 0.8); }
+
+#splashNavWrapper { width: 375px; height: 375px; margin: 0 auto; text-align: center; background:url('../images/splashBack.png'); }
+
+#splash-people { display: none; background:url('../images/splashPeople.png'); width: 375px; height: 375px; position: absolute; z-index: 5; }
+#splash-environments { display: none; background:url('../images/splashEnviro.png'); width: 375px; height: 375px; position: absolute; z-index: 6; }
+#splash-knowledge { display: none; background:url('../images/splashKnowledge.png'); width: 375px; height: 375px; position: absolute; z-index: 7; }
+#splash-investments { display: none; background:url('../images/splashInvest.png'); width: 375px; height: 375px; position: absolute; z-index: 8; }
+#splash-default { background:url('../images/splashFullBack.png'); width: 375px; height: 375px; position: absolute; z-index: 9; }
+#circleLogo { position: absolute; z-index: 12; margin: -225px 0 0 148px; cursor: pointer;}
+
+#main-people, #main-knowledge { float: left; width: 187px; height: 187px; cursor: pointer; position: relative; z-index: 10; }
+#main-environments, #main-investments { float: right; width: 187px; height: 187px; cursor: pointer; position: relative; z-index: 11; }
+
+/* Page layout elements */
+
+.section_intro { width: 100%; height:600px; }
+.sectionImage { position:relative; margin:0 auto; background-image:url('../images/peopleTop.jpg'); background-repeat: no-repeat;
+    background-size:cover; background-position: 50% 50%; width:100%; height:100%; }
+
+.pageWrapper { max-width: 1200px; height: 100%; margin: 0 auto; }
+.imgRight { float: right; }
+.imgLeft { float: left; }
+
+.peopletop { background: url('../images/peopleTop.jpg') no-repeat center top; height: 600px; max-width: 1200px; margin: 0 auto;}
+.envirotop { background: url('../images/enviroTop.jpg') no-repeat center top; height: 600px; max-width: 1200px; margin: 0 auto;}
+.knowledgetop { background: url('../images/knowledgeTop.jpg') no-repeat center top; height: 600px; max-width: 1200px; margin: 0 auto;}
+.investtop { background: url('../images/investTop.jpg') no-repeat center top; height: 600px; max-width: 1200px; margin: 0 auto;}
+#peopleNav { background: url('../images/navBack.png'); height: 100%; width: 250px; position: fixed; z-index: 10; padding: 50px 0 0 100px;}
+#nav { background: url('../images/enviroNavBack.jpg'); height: 100%; width: 290px; position: fixed; z-index: 10; padding: 50px 0 0 60px;}
+#nav ul, #peopleNav ul { list-style-type: none; padding: 0; margin: 0; }
+#nav li, #peopleNav li { padding-bottom: 30px; }
+#nav li ul, #peopleNav li ul { padding: 30px 0 20px 30px; }
+#nav li ul li, #peopleNav li ul li { padding-bottom: 20px; }
+#nav h1, #peopleNav h1 { color: #ffffff; margin: 10px 0 40px; }
+#nav h1 { letter-spacing: -2px; }
+#nav a, #peopleNav a { text-decoration: none; }
+#nav li a, #peopleNav li a { font-family: AvenirNextLTPro-Cn; color: #ffffff; font-size: 16pt; text-decoration: none; }
+.homeLink a { color: #ffffff;}
+
+/* turn off mobile nav */
+#navLight { display: none; }
+
+.peopleBlue { color: #ffffff; text-align: center; margin: 134px 0 0 776px; position: absolute; z-index: 12; width: 192px; height: 146px; background: url('../images/blueBack.png'); }
+.peopleCoral { color: #ffffff; text-align: center; margin: 402px 0 0 519px; position: absolute; z-index: 13; width: 257px; height: 198px; background: url('../images/coralBack.png'); }
+.peopleOrange { color: #ffffff; text-align: center; margin: 495px 0 0 775px; position: absolute; z-index: 14; width: 256px; height: 105px; background: url('../images/orangeBack.png'); }
+.enviroBlue { color: #ffffff; text-align: center; margin: 338px 0 0 588px; position: absolute; z-index: 12; width: 190px; height: 145px; background: url('../images/blueBack.png'); }
+.enviroCoral { color: #ffffff; text-align: center; margin: 495px 0 0 947px; position: absolute; z-index: 13; width: 253px; height: 104px; background: url('../images/coralBack.png'); }
+.enviroGreen { color: #ffffff; text-align: center; margin: 0 0 0 880px; position: absolute; z-index: 13; width: 320px; height: 165px; background: url('../images/greenBack.png'); }
+.knowGreen { color: #ffffff; text-align: center; margin: 175px 0 0 352px; position: absolute; z-index: 13; width: 215px; height: 125px; background: url('../images/greenBack.png'); }
+.knowOrange { color: #ffffff; text-align: center; margin: 200px 0 0 730px; position: absolute; z-index: 14; width: 210px; height: 200px; background: url('../images/orangeBack.png'); }
+.knowCoral { color: #ffffff; text-align: center; margin: 300px 0 0 509px; position: absolute; z-index: 14; width: 220px; height: 200px; background: url('../images/coralBack.png'); }
+.investGreen { color: #ffffff; text-align: center; margin: 192px 0 0 600px; position: absolute; z-index: 13; width: 330px; height: 150px; background: url('../images/greenBack.png'); }
+.investBlue { color: #ffffff; text-align: center; margin: 485px 0 0 350px; position: absolute; z-index: 12; width: 225px; height: 115px; background: url('../images/blueBack.png'); }
+.investCoral { color: #ffffff; text-align: center; margin: 480px 0 0 780px; position: absolute; z-index: 14; width: 250px; height: 120px; background: url('../images/coralBack.png'); }
+
+.peopleBlue a, .peopleCoral a, .peopleOrange a, .enviroBlue a, .enviroCoral a, .enviroGreen a, .knowGreen a, .knowOrange a, .knowOrange a, .knowCoral a, .investGreen a, .investBlue  a, .investCoral a { text-decoration: none; color: #ffffff; }
+
+.peopleBlue h3 { margin-top: 50px; }
+.peopleCoral h3 { margin-top: 80px; }
+.knowGreen h3 { margin-top: 20px; }
+.knowOrange h3 { margin-top: 80px; }
+.knowCoral h3 { margin-top: 60px; }
+.enviroGreen h3 { margin-top: 60px; }
+.investGreen h3 { margin-top: 50px; }
+.investCoral h3 { margin-top: 20px; }
+
+#peopleServed { margin: 0 0 0 350px;  }
+.servedHeader { background: #d36c53; width: 200px; height: 200px; text-align: center; float: left; }
+.sustainHeader { background: #95cd95; width: 207px; height: 155px; text-align: left; float: left; padding: 45px 0 0 0; color: #ffffff; }
+.sustainImg { float: right; }
+.healthyHeader { background: #d36c53; width: 160px; height: 170px; text-align: left; float: left; padding: 20px 0 10px 40px; color: #ffffff; }
+.servedHeader h3 { color: #ffffff; padding: 22px 0 28px 0; }
+.sustainHeader a { padding: 0 0 0 40px; }
+.sustainHeader h3 { color: #ffffff; padding: 2px 0 28px 40px; margin: 0; }
+.lifestyleHeader { background: #2175ad; width: 200px; height: 200px; float: left; }
+.lifestyleHeader h3 { color: #ffffff; padding: 22px 0 22px 40px; }
+.financeHeader { background: #d66c4e; width: 225px; height: 220px; text-align: center; float: left; }
+.financeHeader h3 { padding: 40px 0 0 0; color: #ffffff; }
+.scholarHeader { background: #389bc4; width: 223px; height: 220px; text-align: center; float: left; }
+.scholarHeader h3 { color: #ffffff; margin-top: 80px; } 
+.servedHeaderLight, .sustainHeaderLight, .healthyHeaderLight, .lifestyleHeaderLight, .knowledgeHeaderLight, .knowHeaderWrapper3Light, .financeHeaderLight, .scholarHeaderLight { display: none; }
+
+.servedContent { float: right; width: 530px; margin: 20px 50px 20px 0; }
+.sustainContent { float: right; width: 660px; margin: 0px 100px 50px 0; }
+.healthyContent { float: right; width: 650px; margin: 0 100px 0 0; }
+.financeContent { float: right; width: 500px; margin: 30px 60px 0 0; }
+.financeContentV { float: right; width: 550px; margin: 0px 30px 0 0; }
+.volText { margin: 0 0 40px 50px; }
+
+.knowledgeHeader, .knowledgeHeader2, .knowledgeHeader3 { background: #da9201; width: 160px; height: 160px; text-align: left; float: left; padding: 18px 0 18px 40px; color: #ffffff; }
+.knowHeaderWrapper2 { background: url('../images/knowledgeHeader2.jpg') no-repeat;  }
+.knowHeaderWrapper3 { background: url('../images/knowledgeHeader3.jpg') no-repeat; width: 850px; height: 200px;  }
+.knowledgeContent { width: 540px; float: right; padding: 10px 40px 0 70px; }
+/* .knowledgeContent { background: url('../images/knowledgeHeader.jpg'); width: 510px; height: 166px; float: right; color: #ffffff; padding: 30px 40px 0 100px; text-shadow: 4px 4px 2px rgba(102, 102, 102, 0.8); } */
+.knowledgeContent2 { width: 510px; height: 186px; float: right; color: #ffffff; padding: 10px 40px 0 100px; text-shadow: 4px 4px 2px rgba(102, 102, 102, 0.8); }
+.knowledgeContent3 { width: 180px; height: 186px; float: right; color: #000000; padding: 40px 340px 0 40px;  }
+.knowledgeQuote { background: url('../images/coralBack.png'); color: #ffffff; width: 500px; margin: 30px auto; padding: 20px 40px; }
+.sustainStatsImg { margin-left: 2px; text-align: center; }
+.topContent { width: 200px; float: left; }
+.knowledgeHeader2 { background: url('../images/coralBack.png');  padding: 20px 0 20px 20px; width: 180px; }
+.knowledgeHeader3 { background: url('../images/greenBack.png'); width: 245px; height: 165px; }
+.knowledgeHeader3  h3 { margin: 45px 0; }
+
+.servedWrapper, .enviroWrapper, .knowWrapper, .investWrapper, .contentWrapper, .standardWrapper, .sharingWrapper { margin: 40px 110px 20px 50px; }
+.servedWrapper2 { margin: 40px 20px; }
+.internationalLink { color: #ffffff; padding: 20px; width: 180px; background: url('../images/greenBack.png'); height: 260px; float: left; margin: 50px 10px 200px 0; }
+.internationalLink a { color: #ffffff; text-decoration: none; }
+.internationalLink h4 { margin: 10px 0 20px 0;}
+.contentWrapperMore { margin: 40px 0px 20px 50px; }
+.bridging, .hawaiiStats img { margin-bottom: 50px; }
+.medicaid { margin-bottom: 55px; }
+.medicaid img { float: left; margin-bottom: 150px; margin-right: 15px; }
+.mediStats { text-align: center; }
+.farmers { margin: 0 0 110px 0; }
+.farmers img { float: right; margin-left: 20px; }
+.hospital  { margin-bottom: 90px; }
+.hospital img { float: left; margin: 40px 40px 60px 0; }
+.urban, .heal { margin-bottom: 60px; }
+.healH4 { font-size: 24pt; }
+.signature { font-size: 90%; padding: 0 0 0 250px; }
+.knowledgeContent2 p { margin: 10px 0; }
+.years { margin-bottom: 140px; }
+.yearsImg, .international img, .walkImg { float: right; margin-left: 30px; }
+.walk { margin: 30px 0 250px 0; }
+.walkText { float: left; width: 48%;}
+.walkVideo { float: right; }
+.weightNation { margin: 30px 50px 50px 50px; }
+.everybodyImg { padding-top: 10px; }
+.healthAmText { width: 400px; float: left; margin: 0 0 0 50px; }
+.healthAmImg { float: right; margin-top: 80px; }
+.international { margin-bottom: 100px; }
+.linksDiv { text-align: center; margin-bottom: 100px; }
+
+.hawaiiStats { background:url('../images/hawaiiBack.png'); height: 410px; }
+.hawaiiStats h4 { color: #c74b2c; }
+
+.medAssistance { margin-bottom: 80px; margin-top: 40px; }
+.medImage { float: right; margin-left: 20px; }
+
+.freeSurgery { margin-bottom: 50px; }
+.freeSurgery img { margin: 60px auto 40px; }
+.freeSurgery h4 { margin: 25px 0; }
+.surgeryVid { text-align: center; margin: 0 auto;}
+
+.safetyNetBlock { width: 850px; height: 200px;}
+.safetyBlue { background: url('../images/blueBack.png'); width: 200px; float: left; height: 200px; text-align: center; }
+.safetyBlue h3 { color: #ffffff; margin: 80px 0; }
+
+.commImg, .trainingImg { float: right; }
+.commText { width: 350px; float: left; margin: 30px 0; }
+.parImg { float: left; margin-top: 15px; }
+.parText { width: 500px; float: right; }
+.partner { margin: 50px 0; }
+.trainingText { float: left; width: 330px; }
+.trainingText li { font-size: 16pt; }
+.trainingText h4 { margin: 0 0 20px 0; }
+.trainingText img { margin-left: 40px; }
+.focus { background: url('../images/focusBack.jpg') no-repeat; padding: 0 0 0 50px; }
+.sharingText { float: left; width: 48%; }
+.sharingImg { float: right; }
+.equitOrange { float: left; background: #fba504; width: 207px; height: 200px; }
+.equitOrange h3 { margin: 60px 0 0 40px; color: #ffffff; }
+
+.peopleFooter { text-align: center; color: #ffffff; margin: 0 110px 300px 0; background: url('../images/blueBack.png'); }
+.peopleFooter img { float: left; margin: 0 40px 40px 0;  }
+.peopleFooter h2 { padding-top: 60px; }
+
+.standardBlock { min-height: 400px; }
+.standardText { float: left; width: 45%; }
+.standardTextFull { float: left; }
+.standardImg { float: right; }
+.standardGreen { min-height: 400px; background: url('../images/greenBack.png'); padding: 40px; }
+
+.column { background:url('../images/publishBack.png') no-repeat; height: 250px; width: 155px; float: left; padding: 10px 15px 20px 10px; }
+.column p { font-size: 90%; }
+.publishTitle { font-size: 11pt; }
+.publish h4 { margin: 10px 0 40px 0; }
+
+.howmuchText { width: 250px; padding: 10px 0; }
+.howmuchBlue { color: #0071a0; margin-left: 400px; }
+.howmuchSub { margin-left: 410px; color: #333333; font-size: 85%; }
+.howmuch img { float: right; }
+
+.investStats { width: 100%; margin: 30px 0; }
+.investBlueBack { background:url('../images/investBlueBack.jpg'); width: 850px; height: 415px; }
+.investGreenBack { background:url('../images/investGreenBack.png'); width: 850px; height: 415px; }
+.investOrangeBack { background:url('../images/investOrangeBack.png'); width: 850px; height: 415px; margin-bottom: 50px; }
+.investBlueImg { float: left; margin: 20px 30px;}
+.clinicalContent { width: 480px; float: right; margin: 20px; }
+.farmersInvestContent { width: 420px; float: left; margin: 0px 40px; }
+.investChildContent { width: 370px; float: left; margin: 20px 40px; }
+.clinicalContent h3, .farmersInvestContent h3 { margin: 10px 0; }
+.clinicalContent p, .farmersInvestContent p, .investChildContent p { font-size: 14pt; } 
+.investGreenImg { float: right; margin: 0 30px;}
+.investChildImg { float: right; margin: 50px 20px 0 0; }
+.financeContentV p { font-size: 14pt;  }
+.volunteerVid { width: 100%; text-align: center; margin: 30px auto; }
+.volunteerText { margin: 40px; }
+.volunteerText2 { margin: 40px 40px 200px 40px; }
+.scholarContent { float: right; }
+
+.gulfCoast { background: #c8e5c8; padding: 100px 40px; }
+.gulfVid { float: left; }
+.gulfText { float: right; width: 50%;}
+.gulfText h4 { margin: 20px 0; }
+.david { margin: 60px 50px; }
+.davidText { float: left; width: 50%;}
+.davidImg  { float: right; margin-top: 50px; }
+
+
+@media only screen and (max-width: 480px) {
+	/* styles for narrow screens / mobile devices */
+    
+    #logo { padding-top: 40px; }
+    /* turn off side nav */
+    #peopleNav, #nav { display: none; }
+    #navLight { text-align: center; display: block; position: fixed; height: 100px; width: 100%; background: url('../images/navBackLight.png');}
+    #navLight h5 { color: #ffffff; margin: 0; }
+    .linkNavLight { color: #ffffff; font-size: 10pt; padding: 0 10px; text-decoration: none; }
+    
+    .peopletop { background: url('../images/peopleTopLight.jpg') no-repeat center top; height: 400px; max-width: 500px; margin: 0 auto;}
+    .envirotop { background: url('../images/enviroTopLight.jpg') no-repeat center top; height: 400px; max-width: 500px; margin: 0 auto;}
+    .knowledgetop { background: url('../images/knowledgeTopLight.jpg') no-repeat center top; height: 400px; max-width: 500px; margin: 0 auto;}
+    .investtop { background: url('../images/investTopLight.jpg') no-repeat center top; height: 400px; max-width: 500px; margin: 0 auto;}
+    
+    /* turn off floating boxes */
+    .enviroBlue, .enviroCoral, .enviroGreen, .peopleBlue, .peopleCoral, .peopleOrange, .knowGreen, .knowOrange, .knowCoral, .investGreen, .investBlue, .investCoral { display: none; }
+    
+    #peopleServed { margin: 0; }
+    .servedHeader, .sustainHeader, .healthyHeader, .lifestyleHeader, .knowledgeHeader, .knowledgeHeader2, .knowHeaderWrapper3, .financeHeader, .scholarHeader { display: none; }
+    .servedHeaderLight { display: block; background: #d36c53; width: 100%; height: 50px; text-align: center; float: left; }
+    .servedHeaderLight h3, .sustainHeaderLight h3 { padding: 0; color: #ffffff; margin: 5px 0; }
+    .healthyHeaderLight h3, .lifestyleHeaderLight h3, .knowledgeHeaderLight h3, .knowledgeHeader2Light h3, .knowledgeHeader3Light h3, .knowledgeHeader3 h3, .financeHeaderLight h3, .scholarHeaderLight h3 { padding: 5px 0 0 20px; color: #ffffff; margin: 0; }
+    .topContent { width: 100%; }
+    .sustainHeaderLight { display: block; background: #95cd95; width: 100%; height: 80px; text-align: left; float: left; padding: 10px 0 0 20px; color: #ffffff; }
+    .healthyHeaderLight { display: block; background: #d36c53; width: 100%; height: 50px; text-align: left; float: left; padding: 0; color: #ffffff; }
+    .lifestyleHeaderLight { display: block; background: #2175ad; width: 100%; height: 50px; float: left; color: #ffffff; }
+    .knowledgeHeaderLight, .knowledgeHeader2Light, .knowledgeHeader3Light { display: block; background: #da9201; width: 100%; height: 50px; float: none; color: #ffffff; }
+
+    .farmers img, .urban img, .hospital img, .walkImg, .international img  { float: none; margin: 0 auto; }
+    .yearsImg, .twentyFiveImg { float: none; margin: 0 0 20px 120px; }
+    .farmers, .hospital { margin: 0; }
+
+    .servedContent, .servedWrapper, .enviroWrapper, .knowWrapper, .investWrapper, .contentWrapper, .sustainContent, .healthyContent { margin: 0 20px; width: 90%; }
+    .contentWrapperMore { margin: 20px 0 0 20px; }
+    .knowledgeContent { width: 100%; padding: 0 20px 0 20px; }
+    .knowledgeContent p { padding-left: 40px; }
+    .column { padding: 10px 15px 0 10px; }
+    .knowHeaderWrapper2 { background-image: url('../images/knowledgeHeader2.jpg'); overflow: hidden; margin: 50px 0 0 -100px;  }
+    .knowHeaderWrapper2 p { margin:  0 0 0 100px; }
+    .knowledgeContent2 { width: 100%; height: 186px; float: none; color: #ffffff; padding: 20px; text-shadow: 4px 4px 2px rgba(102, 102, 102, 0.8); }
+    .knowledgeContent3 { float: none; width: 100%; background: url('../images/knowledgeHeader3.jpg') no-repeat;  }
+    .knowHeaderWrapper3Light { display: block; }
+    .knowledgeHeader3 { background: url('../images/greenBack.png'); width: 100%; height: 50px; }
+    .knowledgeContent3 p { margin-top: 70px; }
+    
+    .financeHeaderLight { display: block; background: #d36c53; width: 100%; height: 50px; text-align: center; text-align: left; }
+    .financeContent, .financeContentV { float: none; padding: 0 20px; margin: 0; width: 90%; }
+    .clinicalContent, .investChildContent, .farmersInvestContent { width: 90%; float: none; margin: 20px; }
+    .investBlueBack { background:url('../images/investBlueBack.jpg'); background-size: contain; width: 100%; height: 100%; text-align: center; }
+    .investGreenBack { background:url('../images/investGreenBack.png'); background-size: contain; width: 100%; height: 100%; text-align: center; }
+    .investOrangeBack { background:url('../images/investOrangeBack.png'); background-size: contain; width: 100%; height: 100%; text-align: center; }
+    .investBlueImg, .investGreenImg { float: none; margin: 20px auto;}
+    .clinicalContent p, .farmersInvestContent p, .investGreenBack p { text-align: left; padding-bottom: 30px; }
+    .scholarHeaderLight { display: block; background: #389bc4; width: 100%; height: 50px; text-align: center; }
+    
+    .medicaid, .medicaid img { margin-bottom: 40px; }
+    .mediStats img, .hawaiiStats img, .sustainStatsImg img, .lifestyleImage img, .heal img, .focus img, .planesImg, .investStats img, .volunteerVid img, .volunteerVid img { width: 100%; height: auto; }
+    .howmuch img { float: none; height: auto; width: 100%;}
+    .howmuchText { width: 90%; }
+    .planesImg { margin-bottom: 100px; }
+    .peopleFooter h2 { padding-top: 10px; }
+    .peopleFooter { margin: 0; }
+    .peopleFooter img { margin-bottom: 100px; }
+
+}
+
+
+@media only screen and (max-width: 960px) {
+    /* styles for narrow screens / mobile devices */
+
+    #logo { padding-top: 40px; }
+    #nav { padding: 40px 0 0 20px; width: 250px; }
+
+    #peopleServed { margin-left: 270px; }
+    .topContent { width: 100%; }
+    .knowledgetop { height: 600px; margin: 0 auto; max-width: 980px; }
+    .knowCoral { margin: 300px 0 0 375px; }
+    .knowGreen { margin: 175px 0 0 380px; }
+    .knowOrange { margin: 240px 0 0 595px; }
+
+    .farmers img, .urban img, .hospital img, .walkImg, .international img  { float: none; margin: 0 auto; }
+    .yearsImg, .twentyFiveImg { float: none; margin: 0 0 20px 120px; }
+    .farmers, .hospital { margin: 0; }
+
+    .knowledgeContent, .servedContent, .servedWrapper, .enviroWrapper, .knowWrapper, .investWrapper, .contentWrapper, .sustainContent, .healthyContent { margin: 0 40px; width: 90%; }
+    .trainingText { width: 90%;}
+    .trainingText img { margin: 0; float: left; }
+    .trainingImg { float: right; margin: -120px 0 30px 0;}
+    .contentWrapperMore { margin: 20px 0 0 20px; }
+    .column { padding: 10px 15px 0 10px; }
+    .knowledgeContent { padding: 0; }
+    .knowHeaderWrapper2 { background-image: url('../images/knowledgeHeader2.jpg'); overflow: hidden; margin: 50px 0 0 -100px;  }
+    .knowHeaderWrapper2 p { margin:  0 0 0 100px; }
+    .knowledgeContent2 { width: 100%; height: 186px; float: none; color: #ffffff; padding: 20px; text-shadow: 4px 4px 2px rgba(102, 102, 102, 0.8); }
+    .knowledgeContent3 { float: none; width: 100%; background: url('../images/knowledgeHeader3.jpg') no-repeat;  }
+    .knowHeaderWrapper3Light { display: block; }
+    .knowledgeHeader3 { background: url('../images/greenBack.png'); width: 100%; height: 50px; }
+    .knowledgeContent3 p { margin-top: 70px; }
+
+    .financeHeaderLight { display: block; background: #d36c53; width: 100%; height: 50px; text-align: center; text-align: left; }
+    .financeContent, .financeContentV { float: none; padding: 0 20px; margin: 0; width: 90%; }
+    .clinicalContent, .investChildContent, .farmersInvestContent { width: 90%; float: none; margin: 20px; }
+    .investBlueBack { background:url('../images/investBlueBack.jpg'); background-size: contain; width: 100%; height: 100%; text-align: center; }
+    .investGreenBack { background:url('../images/investGreenBack.png'); background-size: contain; width: 100%; height: 100%; text-align: center; }
+    .investOrangeBack { background:url('../images/investOrangeBack.png'); background-size: contain; width: 100%; height: 100%; text-align: center; }
+    .investBlueImg, .investGreenImg { float: none; margin: 20px auto;}
+    .clinicalContent p, .farmersInvestContent p, .investGreenBack p { text-align: left; padding-bottom: 30px; }
+    .scholarHeaderLight { display: block; background: #389bc4; width: 100%; height: 50px; text-align: center; }
+
+    .medicaid, .medicaid img { margin-bottom: 40px; }
+    .mediStats img, .hawaiiStats img, .sustainStatsImg img, .lifestyleImage img, .heal img, .focus img, .planesImg, .investStats img, .volunteerVid img, .volunteerVid img { width: 100%; height: auto; }
+    .howmuch img { float: none; height: auto; width: 100%;}
+    .howmuchText { width: 90%; }
+    .planesImg { margin-bottom: 100px; }
+    .peopleFooter h2 { padding-top: 10px; }
+    .peopleFooter { margin: 0; }
+    .peopleFooter img { margin-bottom: 100px; }
+
+}
+
+@media only screen and (min-width: 1440px) {
+	/* styles for large screens */
+}

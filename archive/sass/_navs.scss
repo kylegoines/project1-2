@@ -1,0 +1,97 @@
+#navLight{
+	display: none;
+}
+
+#peopleNav{
+	background: url('../images/navBack.png');
+	height: 100%;
+	width: 250px;
+	position: fixed;
+	z-index: 10;
+	padding: 0px 0 0 100px;
+	li{
+		padding-bottom: 30px;
+	}
+}
+
+#peopleNav ul {
+	position: relative;
+	left: -25px;
+	list-style-type: none;
+}
+
+#peopleNav li a {
+	font-family: AvenirNextLTPro-Cn;
+	color: #ffffff;
+	font-size: 16pt;
+	text-decoration: none;
+}
+
+.homeLink a {
+	position: relative;
+	left: 10px;
+	top: -20px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+
+//////////enviroments
+
+#nav{
+	background: url('../images/enviroNavBack.jpg');
+	height: 100%;
+	width: 290px;
+	position: fixed;
+	z-index: 10;
+	padding: 50px 0 0 60px;
+}
+
+#nav ul{
+	position: relative;
+	left: -38px;
+	list-style-type: none;
+	li{
+		padding-bottom: 30px;
+	}
+}
+
+#nav li a{
+	font-family: AvenirNextLTPro-Cn;
+	color: #ffffff;
+	font-size: 16pt;
+	text-decoration: none;
+}
+
+#nav .homeLink{
+	position: relative;
+	left: -20px;
+	//top: -20px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+
+.sustainHeaderLight{
+	display: none;
+}
+
+.healthyHeaderLight{
+	display: none;
+}
+
+.lifestyleHeaderLight{
+	display: none;
+}
+
+///////////isp/////knowladge
+
+.knowledgeHeaderLight{
+	display: none;
+}
+
+///////////////////////////invenstments
+
+.financeHeaderLight{
+	display: none;
+}

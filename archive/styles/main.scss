@@ -1,0 +1,133 @@
+/* Base CSS styles for the KP 2013 Annual Reports */
+
+html { height: 100%; width: 100%; margin: 0; }
+
+/*  Fonts  */
+
+@font-face {
+font-family: AvenirNextLTPro-Regular;
+src: url('fonts/AvenirNextLTPro-Regular.eot');
+src: url('fonts/AvenirNextLTPro-Regular.otf') format('embedded-opentype'),
+     url('fonts/AvenirNextLTPro-Regular.svg') format('svg'),
+     url('fonts/AvenirNextLTPro-Regular.woff') format('woff'); 
+}
+@font-face {
+font-family: AvenirNextLTPro-Demi;
+src: url('fonts/AvenirNextLTPro-Demi.eot'),
+     url('fonts/AvenirNextLTPro-Demi.otf'),
+     url('fonts/AvenirNextLTPro-Demi.svg'),
+     url('fonts/AvenirNextLTPro-Demi.woff');
+} 
+@font-face {
+font-family: AvenirNextLTPro-DemiCn;
+src: url('fonts/AvenirNextLTPro-DemiCn.eot'),
+     url('fonts/AvenirNextLTPro-DemiCn.otf'),
+     url('fonts/AvenirNextLTPro-DemiCn.svg'),
+     url('fonts/AvenirNextLTPro-DemiCn.woff'); 
+} 
+@font-face {
+font-family: AvenirNextLTPro-MediumCn;
+src: url('fonts/AvenirNextLTPro-MediumCn.eot'),
+     url('fonts/AvenirNextLTPro-MediumCn.otf'),
+     url('fonts/AvenirNextLTPro-MediumCn.svg'),
+     url('fonts/AvenirNextLTPro-MediumCn.woff'); 
+}
+@font-face {
+font-family: AvenirNextLTPro-BoldCn;
+src: url('fonts/AvenirNextLTPro-BoldCn.eot'),
+     url('fonts/AvenirNextLTPro-BoldCn.otf'),
+     url('fonts/AvenirNextLTPro-BoldCn.svg'),
+     url('fonts/AvenirNextLTPro-BoldCn.woff'); 
+}
+@font-face {
+font-family: AvenirNextLTPro-BoldCnIt;
+src: url('fonts/AvenirNextLTPro-BoldCnIt.eot'),
+     url('fonts/AvenirNextLTPro-BoldCnIt.otf'),
+     url('fonts/AvenirNextLTPro-BoldCnIt.svg'),
+     url('fonts/AvenirNextLTPro-BoldCnIt.woff'); 
+}
+@font-face {
+font-family: AvenirNextLTPro-It;
+src: url('fonts/AvenirNextLTPro-It.eot'),
+     url('fonts/AvenirNextLTPro-It.otf'),
+     url('fonts/AvenirNextLTPro-It.svg'),
+     url('fonts/AvenirNextLTPro-It.woff'); 
+}
+@font-face {
+font-family: AvenirNextLTPro-Cn;
+src: url('fonts/AvenirNextLTPro-Cn.eot'),
+     url('fonts/AvenirNextLTPro-Cn.otf'),
+     url('fonts/AvenirNextLTPro-Cn.svg'),
+     url('fonts/AvenirNextLTPro-Cn.woff');
+}
+@font-face {
+font-family: AvenirNextLTPro-UltLtCn;
+src: url('fonts/AvenirNextLTPro-UltLtCn.eot'),
+     url('fonts/AvenirNextLTPro-UltLtCn.otf'),
+     url('fonts/AvenirNextLTPro-UltLtCn.svg'),
+     url('fonts/AvenirNextLTPro-UltLtCn.woff'); 
+}
+@font-face {
+    font-family: 'Avenir-Light';
+    src: url('fonts/avenirltstd-light-webfont.eot');
+    src: url('fonts/avenirltstd-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/avenirltstd-light-webfont.woff') format('woff'),
+         url('fonts/avenirltstd-light-webfont.ttf') format('truetype'),
+         url('fonts/avenirltstd-light-webfont.svg#avenir_lt_std_35_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* base styles and fonts */
+
+body { font-family: AvenirNextLTPro-Regular, sans-serif; font-size: 12pt; margin: 0; padding: 0; height: 100%;  }
+
+h1 { font-size: 34pt; text-transform: uppercase; font-family: AvenirNextLTPro-DemiCn; }
+h2 { font-size: 30pt; font-family: AvenirNextLTPro-MediumCn; }
+h3 { font-size: 24pt; font-family: AvenirNextLTPro-Cn; }
+h4 { font-size: 20pt; font-family: AvenirNextLTPro-Regular; }
+h5 { font-size: 16pt; font-family: AvenirNextLTPro-Demi; text-transform: uppercase;  }
+
+p { font-size: 16pt; font-family: Avenir-Light; }
+li { font-size: 16pt; font-family: Avenir-Light; }
+.smallText { font-size: 12pt; }
+
+.clearit { clear: both; }
+
+/* full background images */
+
+#splashWrapper {
+  background: url(../images/splashimage.jpg) no-repeat center top fixed; 
+  height: 100%; min-height: 800px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/splashimage.jpg', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/splashimage.jpg', sizingMethod='scale')";
+} 
+
+/* letter */
+#letter { width: 1000px; margin: 50px auto; }
+.leftCol { float: left; background: #bfd5a8; width: 35%; }
+.rightCol { float: right; width: 60%;  }
+#letter p { font-size: 14pt; }
+.letterRight { text-align: right; width: 100%; }
+.textBottom { padding: 20px 30px 50px; }
+#letter ul { list-style: square; }
+.leftCol ul { color: #ffffff; }
+.leftCol li, .rightCol li { margin-bottom: 20px; }
+
+
+
+
+//////////////////////////////////
+/// this is kyles styles ughuhgugh
+/////////////////////////////////
+
+
+
+///variables
+$fontReg: 'AvenirNextLTPro-Regular';
+$fontDemi: 'AvenirNextLTPro-Demi';
+$fontDemiCond: 'AvenirNextLTPro-DemiCn' 
