@@ -726,7 +726,6 @@ p {
 
 /* line 44, ../sass/_enviro.scss */
 .sustainImg {
-  clear: both;
   float: right;
   overflow: hidden;
   height: 200px;
@@ -800,6 +799,7 @@ p {
   margin-right: 1.69492%;
   display: inline;
   margin-left: 8.47458%;
+  margin-bottom: 8.47458%;
 }
 
 /* line 104, ../sass/_enviro.scss */
@@ -809,6 +809,7 @@ p {
   margin-right: 1.69492%;
   display: inline;
   margin-left: 8.47458%;
+  margin-bottom: 8.47458%;
 }
 
 /* line 109, ../sass/_enviro.scss */
@@ -871,11 +872,15 @@ p {
 .healthAmerica {
   width: 91.52542%;
   float: left;
-  margin-right: 1.69492%;
   display: inline;
   margin-left: 8.47458%;
   margin-top: 40px;
+  margin-right: 1.69492%;
+  margin-bottom: 40px;
 }
+
+.healthAmImg { float: right;}
+.weightNation { margin-left: 8.47458%; }
 
 /* line 145, ../sass/_enviro.scss */
 .lifestyleBlock {

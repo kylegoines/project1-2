@@ -103,7 +103,7 @@
 		 <div class="volText">
 		 	  <p>Eight years ago, Kaiser Permanente established an annual day of service on Martin Luther King, Jr. Day to honor and recognize Dr. King and his advancement of civil and human rights. This has enabled thousands of Kaiser Permanente employees and physicians to provide valuable services to their communities and to further advance the Kaiser Permanente legacy that parallels Dr. King’s values.</p>
 		 </div>
-		 <div class="volunteerVid"><img src="images/volunteerVid.jpg"></div>
+		 <div class="volunteerVid"><a href="http://www.youtube.com/watch?v=9wt74KCkCmc" target="_blank"><img src="images/volunteerVid.jpg"></a></div>
 		 <div class="volunteerText">
 		   <p>Last year, on Martin Luther King Day, more than 6,400 Kaiser Permanente employees and physicians worked on projects in close to 100 community sites across the country, serving approximately 17,925 people.</p>
 		 </div>		 
@@ -122,7 +122,7 @@
 			  	  <h4>Community Service Awards</h4>
 				  <p>The David Lawrence Community Service Awards are named in honor of Dr. David Lawrence, former CEO of Kaiser Permanente and lifelong advocate and champion of improving community health. Every year hundreds of volunteers are nominated by their peers. In 2012, they met to share learnings and discuss future opportunities to make an even greater impact in the communities we serve. The awards recognize individuals and groups across the Kaiser Permanente regions who champion outstanding community service.</p>
               </div>
-			  <div class="davidImg"><img src="images/davidVid.jpg"></div>
+			  <div class="davidImg"><a href="http://youtu.be/dKWi4LB9_ag" target="_blank"><img src="images/davidVid.jpg"></a></div>
 			  <div class="clearit"></div>
 		 </div>
 		 

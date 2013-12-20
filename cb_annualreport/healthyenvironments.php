@@ -58,8 +58,8 @@
 		 <div class="clearit"></div>
 		 
 		 <div class="sustainStatsImg">
-		   <img src="images/sustainStats.jpg">
-		   <img src="images/sustainStats2.jpg">
+		   <a href="http://share.kaiserpermanente.org/article/kaiser-permanente-wins-national-environmental-awards/"><img src="images/sustainStats.jpg"></a>
+		   <a href="http://share.kaiserpermanente.org/article/kaiser-permanente-wins-national-environmental-awards/"><img src="images/sustainStats2.jpg"></a>
 		   <img src="images/award.jpg">
 		 </div>
 		 <div class="healthyBlock">
@@ -99,15 +99,14 @@
 		 <div class="healthAmerica">
 			 <div class="healthAmText">
 				<a href="http://ahealthieramerica.org" target="_blank"><img src="images/healthAm.jpg"></a>
-				<p>We are proud to be a founding member of the Partnership for a Healthier America, a non-partisan, non-profit organization devoted to working to ensure the health of our nation’s youth by solving the childhood obesity epidemic.  Founded in 2010 in conjunction with – but independent from Let’s Move! – PHA is led by some of our nation’s most respected health and childhood obesity advocates.</p></div>
-				<div class="healthAmImg"><img src="images/ipad.png"></div>
-				<div class="clearit"></div>
+				<p><img class="healthAmImg" src="images/ipad.png">
+                    We are proud to be a founding member of the Partnership for a Healthier America, a non-partisan, non-profit organization devoted to working to ensure the health of our nation’s youth by solving the childhood obesity epidemic.  Founded in 2010 in conjunction with – but independent from Let’s Move! – PHA is led by some of our nation’s most respected health and childhood obesity advocates.</p></div>
 
-             <div class="weightNation">
-                 <a href="http://theweightofthenation.hbo.com/films/trailer"><h4>Weight of the Nation</h4></a>
-                 <p>Kaiser Permanente partnered with HBO (Home Box Office), the Institute of Medicine, the National Institutes of Health, the Centers for Disease Control and Prevention and the Michael & Susan Dell Foundation to launch one of the most ambitious public health campaigns addressing America’s obesity epidemic to date. We hosted screenings of the four one-hour films and held town hall meetings and distributed more than 30,000 screening kits.</p>
-             </div>
          </div>
+        <div class="weightNation">
+            <a href="http://theweightofthenation.hbo.com/films/trailer" target="_blank"><h4>Weight of the Nation</h4></a>
+            <p>Kaiser Permanente partnered with HBO (Home Box Office), the Institute of Medicine, the National Institutes of Health, the Centers for Disease Control and Prevention and the Michael & Susan Dell Foundation to launch one of the most ambitious public health campaigns addressing America’s obesity epidemic to date. We hosted screenings of the four one-hour films and held town hall meetings and distributed more than 30,000 screening kits.</p>
+        </div>
 		 
 
 		 <div class="lifestyleBlock">

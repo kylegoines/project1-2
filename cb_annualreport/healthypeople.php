@@ -84,7 +84,7 @@
 			 <div class="mediStats"><img src="images/medicaidStats.png"></div>
 			 
 			 <div class="hawaiiStats">
-			   <h4>KP committed to quality care for all populations</h4>
+			   <h4>Case Study: KP is committed to quality care for all populations. Regardless of your economic status, KP ensures you will receive the highest quality care.</h4>
 			   <p>Finding better models of care for these patients is something we are committed to in each of our regions in the United States.</p>
 			   <img src="images/hawaiiStats.png">
 			 </div>
